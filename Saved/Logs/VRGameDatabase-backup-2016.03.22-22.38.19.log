@@ -1,0 +1,1255 @@
+﻿[2016.03.22-19.56.02:225][  0]Log file open, 03/22/16 19:56:02
+[2016.03.22-19.56.02:225][  0]LogInit:Display: Running engine for game: VRGameDatabase
+[2016.03.22-19.56.02:225][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.22-19.56.02:225][  0]LogInit:Display: RandInit(-1303709470) SRandInit(-1303709465).
+[2016.03.22-19.56.02:225][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.03.22-19.56.02:225][  0]LogStats: Stats thread started at 0.082113
+[2016.03.22-19.56.02:225][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.22-19.56.02:225][  0]LogInit: API Version: 2758231
+[2016.03.22-19.56.02:225][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.03.22-19.56.02:225][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.22-19.56.02:225][  0]LogInit: Build Configuration: Development
+[2016.03.22-19.56.02:225][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.22-19.56.02:225][  0]LogInit: Command line:  
+[2016.03.22-19.56.02:225][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.03.22-19.56.02:225][  0]LogInit: Rocket: 1
+[2016.03.22-19.56.02:237][  0]LogInit: Using libcurl 7.41.0
+[2016.03.22-19.56.02:237][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.22-19.56.02:237][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.22-19.56.02:237][  0]LogInit:  - other features:
+[2016.03.22-19.56.02:237][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.22-19.56.02:237][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.22-19.56.02:237][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.22-19.56.02:237][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.22-19.56.02:237][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.22-19.56.02:237][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.22-19.56.02:237][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.22-19.56.02:237][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.22-19.56.02:237][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.22-19.56.02:237][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.22-19.56.02:253][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.22-19.56.02:260][  0]LogInit: Object subsystem initialized
+[2016.03.22-19.56.02:262][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.22-19.56.02:262][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.22-19.56.02:271][  0]LogInit: Computer: ZAIN-PC
+[2016.03.22-19.56.02:271][  0]LogInit: User: Zain
+[2016.03.22-19.56.02:271][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.03.22-19.56.02:271][  0]LogInit: High frequency timer resolution =4.023974 MHz
+[2016.03.22-19.56.02:271][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.03.22-19.56.02:271][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.22-19.56.02:271][  0]LogMemory: Process Physical Memory: 55.89 MB used, 55.89 MB peak
+[2016.03.22-19.56.02:271][  0]LogMemory: Process Virtual Memory: 59.48 MB used, 59.48 MB peak
+[2016.03.22-19.56.02:271][  0]LogMemory: Physical Memory: 3613.43 MB used, 8128.26 MB total
+[2016.03.22-19.56.02:271][  0]LogMemory: Virtual Memory: 352.88 MB used, 8388608.00 MB total
+[2016.03.22-19.56.02:342][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.03.22-19.56.02:937][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon (TM) R9 380 Series (Feature Level 11_0)
+[2016.03.22-19.56.02:937][  0]LogD3D11RHI: Adapter has 4072MB of dedicated video memory, 0MB of dedicated system memory, and 3808MB of shared system memory, 1 output[s]
+[2016.03.22-19.56.02:937][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.22-19.56.02:947][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.22-19.56.02:947][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.22-19.56.02:958][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.03.22-19.56.02:969][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Intermediate/Shaders/WorkingDirectory/3416/).
+[2016.03.22-19.56.02:969][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Zain/AppData/Local/Temp/UnrealShaderWorkingDir/04AA49764C1B645BF338308833517043/'.
+[2016.03.22-19.56.02:969][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.22-19.56.04:994][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.22-19.56.05:010][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.22-19.56.05:026][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.22-19.56.05:041][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.22-19.56.05:057][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.22-19.56.05:072][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.22-19.56.05:087][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.22-19.56.05:101][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.22-19.56.05:114][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.22-19.56.05:128][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.22-19.56.05:143][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.22-19.56.05:172][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.22-19.56.05:172][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.22-19.56.05:183][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.22-19.56.05:237][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.22-19.56.05:251][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.22-19.56.05:264][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.22-19.56.05:278][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.22-19.56.05:278][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.22-19.56.05:655][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.22-19.56.06:033][  0]LogDerivedDataCache: Loaded boot cache 0.38s 41MB C:/Users/Zain/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.22-19.56.06:033][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Zain/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.03.22-19.56.06:033][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.22-19.56.06:033][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.22-19.56.06:033][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.22-19.56.06:033][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.22-19.56.06:147][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.22-19.56.06:159][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Zain/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.22-19.56.09:114][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.22-19.56.09:115][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.22-19.56.09:172][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.22-19.56.09:172][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.22-19.56.09:622][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.22-19.56.10:864][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.22-19.56.11:022][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
+[2016.03.22-19.56.11:362][  0]SourceControl: Info Source control is disabled
+[2016.03.22-19.56.11:363][  0]SourceControl: Info Source control is disabled
+[2016.03.22-19.56.11:393][  0]SourceControl: Info Source control is disabled
+[2016.03.22-19.56.11:425][  0]SourceControl: Info Source control is disabled
+[2016.03.22-19.56.11:942][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.03.22-19.56.11:942][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.03.22-19.56.12:036][  0]LogEngine: Initializing Engine...
+[2016.03.22-19.56.12:046][  0]OCULUS: Info: 03/22/16 19:56:12: [CAPI] LibOVR module is located at C:\Windows\system32\LibOVRRT64_0_8.dll
+
+[2016.03.22-19.56.12:047][  0]OCULUS: Info: 03/22/16 19:56:12: [IPC] Call Stats for SetInitialState : x1: C2S=34.0459, S2C=10.1889, Runtime=66.6008 (microseconds) C2Ssize=80, S2Csize=81 (bytes)
+
+[2016.03.22-19.56.12:047][  0]OCULUS: Info: 03/22/16 19:56:12: [IPC] Call Stats for IsLatencyTesterAvailable : x1: C2S=24.6025, S2C=2.73362, Runtime=1.73957 (microseconds) C2Ssize=33, S2Csize=18 (bytes)
+
+[2016.03.22-19.56.12:047][  0]OCULUS: Info: 03/22/16 19:56:12: [IPC] Call Stats for Hmd_Create : x1: C2S=18.8868, S2C=2.98213, Runtime=17.6442 (microseconds) C2Ssize=19, S2Csize=171 (bytes)
+
+[2016.03.22-19.56.12:047][  0]OCULUS: Info: 03/22/16 19:56:12: [IPC] Call Stats for Hmd_GetHmdInfo : x1: C2S=14.6621, S2C=5.46723, Runtime=7.70383 (microseconds) C2Ssize=23, S2Csize=803 (bytes)
+
+[2016.03.22-19.56.12:047][  0]OCULUS: Info: 03/22/16 19:56:12: [IPC] Call Stats for SetNumberValue : x1: C2S=17.3957, S2C=2.73362, Runtime=5.96425 (microseconds) C2Ssize=55, S2Csize=25 (bytes)
+
+[2016.03.22-19.56.12:047][  0]OCULUS: Info: 03/22/16 19:56:12: [IPC] Call Stats for SetNumberValues : x1: C2S=15.4077, S2C=2.73362, Runtime=3.47915 (microseconds) C2Ssize=81, S2Csize=25 (bytes)
+
+[2016.03.22-19.56.12:048][  0]OCULUS: Info: 03/22/16 19:56:12: [IPC] Call Stats for Hmd_SetEnabledCaps : x1: C2S=14.9106, S2C=632.956, Runtime=70.3285 (microseconds) C2Ssize=35, S2Csize=33 (bytes)
+
+[2016.03.22-19.56.12:048][  0]OCULUS: Info: 03/22/16 19:56:12: [IPC] Call Stats for Hmd_ConfigureTracking : x1: C2S=180.17, S2C=2.48511, Runtime=56.6604 (microseconds) C2Ssize=46, S2Csize=25 (bytes)
+
+[2016.03.22-19.56.12:048][  0]OCULUS: Info: 03/22/16 19:56:12: [IPC] Call Stats for Hmd_Release : x1: C2S=71.8195, S2C=4.22468, Runtime=38.5191 (microseconds) C2Ssize=20, S2Csize=25 (bytes)
+
+[2016.03.22-19.56.12:059][  0]LogHMD: Oculus plugin initialized. Version: 4.10.4-2872498+++depot+UE4-Releases+4.10, LibOVR: 0.8.0.0, built Feb 18 2016, 15:47:50
+[2016.03.22-19.56.12:224][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.22-19.56.12:253][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.22-19.56.12:549][  0]LogInit: FAudioDevice initialized.
+[2016.03.22-19.56.12:587][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/Zain/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.22-19.56.12:597][  0]LogInit: Texture streaming: Enabled
+[2016.03.22-19.56.12:622][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.22-19.56.12:622][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.22-19.56.12:622][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 7c60df0a447c9ef6199d21b6819f259e|80baa8e3b74d44a3815fddd4e7187f5b|252caeb6-b0e8-405f-a22e-4edf38a6839b
+[2016.03.22-19.56.12:622][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.22-19.56.12:644][  0]LogInit: Transaction tracking system initialized
+[2016.03.22-19.56.12:752][  0]BlueprintLog: New page: Editor Load
+[2016.03.22-19.56.13:096][  0]LocalizationService: Info Localization service is disabled
+[2016.03.22-19.56.13:318][  0]LogConsoleResponse:Display: 
+[2016.03.22-19.56.13:754][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.22-19.56.13:953][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Zain/Documents/GitHub/VRGameDatabase/Content/' took 0.01s
+[2016.03.22-19.56.13:953][  0]SourceControl: Info Source control is disabled
+[2016.03.22-19.56.13:953][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.22-19.56.14:064][  0]LightingResults: New page: Lighting Build
+[2016.03.22-19.56.14:070][  0]MapCheck: New page: Map Check
+[2016.03.22-19.56.14:070][  0]LightingResults: New page: Lighting Build
+[2016.03.22-19.56.14:093][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002235EAC0
+[2016.03.22-19.56.14:581][  0]LogLinker:Warning: Asset '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.22-19.56.17:661][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.22-19.56.17:713][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.22-19.56.17:713][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.22-19.56.17:770][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.002ms to complete.
+[2016.03.22-19.56.17:770][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 3.818
+[2016.03.22-19.56.17:884][  0]LogCollectionManager: Loaded 0 collections in 0.002547 seconds
+[2016.03.22-19.56.17:928][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Collections/' took 0.01s
+[2016.03.22-19.56.17:928][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Zain/Documents/GitHub/VRGameDatabase/Content/Developers/Zain/Collections/' took 0.01s
+[2016.03.22-19.56.17:928][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Zain/Documents/GitHub/VRGameDatabase/Content/Collections/' took 0.01s
+[2016.03.22-19.56.17:928][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.03.22-19.56.17:939][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 1893 classes and 338 folders.
+[2016.03.22-19.56.17:950][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.03.22-19.56.18:016][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.03.22-19.56.18:035][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.03.22-19.56.18:096][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.22-19.56.18:100][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.22-19.56.18:121][  0]LogLoad: Full Startup: 16.53 seconds (BP compile: 0.17 seconds)
+[2016.03.22-19.56.18:133][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 0.8.0.0
+[2016.03.22-19.56.18:175][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.22-19.56.18:374][  1]LogRenderer: Reallocating scene render targets to support 836x392 (Frame:2).
+[2016.03.22-19.56.18:941][  5]LogAssetRegistry: Asset discovery search completed in 7.9296 seconds
+[2016.03.22-19.56.18:941][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.03.22-19.56.18:941][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000261 seconds (updated 0 objects)
+[2016.03.22-19.56.23:345][493]LogRenderer: Reallocating scene render targets to support 1616x572 (Frame:475).
+[2016.03.22-20.33.00:908][495]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2016.03.22-20.33.07:382][ 65]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.22-20.33.15:856][820]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.22-20.33.16:448][820]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 107 classes and 0 folders.
+[2016.03.22-20.34.02:263][619]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.03.22-20.34.07:492][619]LogSavePackage: Save=3701.541016ms
+[2016.03.22-20.34.07:492][619]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/FirstPersonExampleMap_Auto1465E1DA0429DE02D1D81D58A551CB00D.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2016.03.22-20.34.07:495][619]LogSavePackage: Total save time: 5111.571793ms
+[2016.03.22-20.34.07:495][619]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2016.03.22-20.34.07:498][619]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 5.235
+[2016.03.22-20.34.07:498][619]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 5.235
+[2016.03.22-20.43.40:499][895]BlueprintLog: New page: Compile NewWidgetBlueprint
+[2016.03.22-20.43.40:621][895]BlueprintEditorCompileResults: Info [2859.00] Compile of NewWidgetBlueprint successful! [in 122 ms]
+[2016.03.22-20.43.44:061][ 46]LogSavePackage: Save=10.067411ms
+[2016.03.22-20.43.44:061][ 46]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/NewWidgetBlueprint3E1DBDF345EABD67AF0DE0BB1B10A16A.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/NewWidgetBlueprint.uasset'
+[2016.03.22-20.43.44:065][ 46]LogSavePackage: Total save time: 13.886027ms
+[2016.03.22-20.43.44:065][ 46]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/NewWidgetBlueprint.uasset
+[2016.03.22-20.45.09:006][390]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2016.03.22-20.45.09:110][390]BlueprintEditorCompileResults: Info [2947.48] Compile of FirstPersonExampleMap successful! [in 103 ms]
+[2016.03.22-20.47.18:184][368]BlueprintLog: New page: Compile NewWidgetBlueprint
+[2016.03.22-20.47.18:306][368]BlueprintEditorCompileResults: Info [3076.68] Compile of NewWidgetBlueprint successful! [in 121 ms]
+[2016.03.22-20.47.18:908][401]LogSavePackage: Save=11.402410ms
+[2016.03.22-20.47.18:908][401]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/NewWidgetBlueprint763E44834E68E003BD6DD7B066A297FD.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/NewWidgetBlueprint.uasset'
+[2016.03.22-20.47.18:912][401]LogSavePackage: Total save time: 23.726795ms
+[2016.03.22-20.47.18:912][401]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/NewWidgetBlueprint.uasset
+[2016.03.22-20.48.15:131][590]LogSavePackage: Save=2857.199219ms
+[2016.03.22-20.48.15:131][590]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/FirstPersonExampleMap_Auto2CC1ECEC645125151D523CFAE1291C5D2.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2016.03.22-20.48.15:136][590]LogSavePackage: Total save time: 2938.424055ms
+[2016.03.22-20.48.15:136][590]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap
+[2016.03.22-20.48.15:138][590]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 3.000
+[2016.03.22-20.48.15:138][590]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.000
+[2016.03.22-20.48.19:746][864]BlueprintLog: New page: Compile NewWidgetBlueprint
+[2016.03.22-20.48.19:853][864]BlueprintEditorCompileResults: Info [3138.23] Compile of NewWidgetBlueprint successful! [in 106 ms]
+[2016.03.22-20.48.20:553][902]LogSavePackage: Save=10.293804ms
+[2016.03.22-20.48.20:553][902]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/NewWidgetBlueprint8062A09542FF75B933431DB090ADFF86.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/NewWidgetBlueprint.uasset'
+[2016.03.22-20.48.20:556][902]LogSavePackage: Total save time: 14.658641ms
+[2016.03.22-20.48.20:556][902]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/NewWidgetBlueprint.uasset
+[2016.03.22-20.48.35:596][813]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2016.03.22-20.48.35:696][813]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003C609A0
+[2016.03.22-20.48.35:696][813]BlueprintEditorCompileResults: Info [3154.07] Compile of FirstPersonExampleMap successful! [in 99 ms]
+[2016.03.22-20.48.40:722][957]LogSavePackage: Save=2804.825684ms
+[2016.03.22-20.48.40:722][957]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/FirstPersonExampleMapC0B3357645C24EA6AC63E7905C2CC6E2.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.03.22-20.48.40:730][957]LogSavePackage: Total save time: 2815.259490ms
+[2016.03.22-20.48.40:730][957]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.03.22-20.48.40:763][957]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 3.028
+[2016.03.22-20.49.09:458][391]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000452937E0
+[2016.03.22-20.49.09:460][391]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003C60B80
+[2016.03.22-20.49.09:466][391]LogMetaData: Removing '/Game/FirstPersonBP/UMG/Game1.SKEL_Game1_C' ref from Metadata '/Game/FirstPersonBP/UMG/NewWidgetBlueprint.PackageMetaData'
+[2016.03.22-20.49.09:466][391]LogMetaData: Removing '/Game/FirstPersonBP/UMG/Game1.Game1_C' ref from Metadata '/Game/FirstPersonBP/UMG/NewWidgetBlueprint.PackageMetaData'
+[2016.03.22-20.49.09:466][391]LogMetaData: Removing '/Game/FirstPersonBP/UMG/Game1.Game1:EventGraph.K2Node_Event_146' ref from Metadata '/Game/FirstPersonBP/UMG/NewWidgetBlueprint.PackageMetaData'
+[2016.03.22-20.49.09:466][391]LogMetaData: Removing '/Game/FirstPersonBP/UMG/Game1.Game1:EventGraph.K2Node_Event_147' ref from Metadata '/Game/FirstPersonBP/UMG/NewWidgetBlueprint.PackageMetaData'
+[2016.03.22-20.49.09:466][391]LogMetaData: Removing '/Game/FirstPersonBP/UMG/Game1.Game1:GetBrush_0.K2Node_FunctionEntry_81' ref from Metadata '/Game/FirstPersonBP/UMG/NewWidgetBlueprint.PackageMetaData'
+[2016.03.22-20.49.09:466][391]LogMetaData: Removing '/Game/FirstPersonBP/UMG/Game1.Game1:GetBrush_0.K2Node_FunctionResult_1' ref from Metadata '/Game/FirstPersonBP/UMG/NewWidgetBlueprint.PackageMetaData'
+[2016.03.22-20.49.09:505][391]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/UMG/Game1" FILE="../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game1.uasset" SILENT=true
+[2016.03.22-20.49.09:518][391]LogSavePackage: Save=11.170053ms
+[2016.03.22-20.49.09:518][391]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game14FF085744C64B2190C475C8509E6A266.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game1.uasset'
+[2016.03.22-20.49.09:523][391]LogSavePackage: Total save time: 16.422819ms
+[2016.03.22-20.49.09:523][391]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game1.uasset
+[2016.03.22-20.49.26:098][ 78]Cmd: DUPLICATE
+[2016.03.22-20.49.26:098][ 78]Cmd: ACTOR DUPLICATE
+[2016.03.22-20.49.32:057][671]Cmd: TRANSACTION UNDO
+[2016.03.22-20.49.32:057][671]LogEditorTransaction: Undo Duplicate Actors
+[2016.03.22-20.50.22:854][183]BlueprintLog: New page: Compile Game2
+[2016.03.22-20.50.22:956][183]BlueprintEditorCompileResults: Info [3261.33] Compile of Game2 successful! [in 102 ms]
+[2016.03.22-20.50.23:409][207]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/UMG/Game2" FILE="../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game2.uasset" SILENT=true
+[2016.03.22-20.50.23:423][207]LogSavePackage: Save=11.389238ms
+[2016.03.22-20.50.23:423][207]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game2ECF590F14031263ABD1BCD8D03D32D9B.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game2.uasset'
+[2016.03.22-20.50.23:427][207]LogSavePackage: Total save time: 15.590310ms
+[2016.03.22-20.50.23:427][207]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game2.uasset
+[2016.03.22-20.50.28:178][521]BlueprintLog: New page: Compile Game3
+[2016.03.22-20.50.28:271][521]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000046C26E80
+[2016.03.22-20.50.28:281][521]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000046C247C0
+[2016.03.22-20.50.28:281][521]BlueprintEditorCompileResults: Info [3266.65] Compile of Game3 successful! [in 103 ms]
+[2016.03.22-20.50.28:642][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/UMG/Game3" FILE="../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game3.uasset" SILENT=true
+[2016.03.22-20.50.28:657][540]LogSavePackage: Save=12.419812ms
+[2016.03.22-20.50.28:657][540]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game395B050B748959474B53DCEB53395FDC5.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game3.uasset'
+[2016.03.22-20.50.28:661][540]LogSavePackage: Total save time: 16.822673ms
+[2016.03.22-20.50.28:661][540]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game3.uasset
+[2016.03.22-20.50.42:142][390]BlueprintLog: New page: Compile Game4
+[2016.03.22-20.50.42:235][390]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000047BAEF20
+[2016.03.22-20.50.42:246][390]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000047BAE980
+[2016.03.22-20.50.42:246][390]BlueprintEditorCompileResults: Info [3280.62] Compile of Game4 successful! [in 104 ms]
+[2016.03.22-20.50.43:726][472]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/UMG/Game4" FILE="../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game4.uasset" SILENT=true
+[2016.03.22-20.50.43:742][472]LogSavePackage: Save=13.739900ms
+[2016.03.22-20.50.43:742][472]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game49B508E5C495BDD330E97D7B68C950B5B.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game4.uasset'
+[2016.03.22-20.50.43:749][472]LogSavePackage: Total save time: 20.113450ms
+[2016.03.22-20.50.43:749][472]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game4.uasset
+[2016.03.22-20.51.10:437][ 38]BlueprintLog: New page: Compile Game1
+[2016.03.22-20.51.10:537][ 38]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000126DBEC0
+[2016.03.22-20.51.10:559][ 38]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000126DAFC0
+[2016.03.22-20.51.10:559][ 38]BlueprintEditorCompileResults: Info [3308.93] Compile of Game1 successful! [in 121 ms]
+[2016.03.22-20.51.11:060][ 57]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/UMG/Game1" FILE="../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game1.uasset" SILENT=true
+[2016.03.22-20.51.11:183][ 57]LogSavePackage: Save=12.990641ms
+[2016.03.22-20.51.11:183][ 57]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game139695E4B44489059B8E502B2F6D28ACE.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game1.uasset'
+[2016.03.22-20.51.11:192][ 57]LogSavePackage: Total save time: 28.433334ms
+[2016.03.22-20.51.11:192][ 57]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game1.uasset
+[2016.03.22-20.51.22:245][630]BlueprintLog: New page: Compile Game2
+[2016.03.22-20.51.22:363][630]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FB89B20
+[2016.03.22-20.51.22:363][630]BlueprintEditorCompileResults: Info [3320.73] Compile of Game2 successful! [in 118 ms]
+[2016.03.22-20.51.22:711][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/UMG/Game2" FILE="../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game2.uasset" SILENT=true
+[2016.03.22-20.51.22:728][643]LogSavePackage: Save=11.747342ms
+[2016.03.22-20.51.22:728][643]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game2BB32B29644E07F877AE45C9BE1F23A20.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game2.uasset'
+[2016.03.22-20.51.22:733][643]LogSavePackage: Total save time: 19.778207ms
+[2016.03.22-20.51.22:733][643]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game2.uasset
+[2016.03.22-20.51.44:490][647]BlueprintLog: New page: Compile Game3
+[2016.03.22-20.51.44:609][647]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000112D0D60
+[2016.03.22-20.51.44:609][647]BlueprintEditorCompileResults: Info [3342.98] Compile of Game3 successful! [in 118 ms]
+[2016.03.22-20.51.45:011][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/UMG/Game3" FILE="../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game3.uasset" SILENT=true
+[2016.03.22-20.51.45:030][662]LogSavePackage: Save=13.502324ms
+[2016.03.22-20.51.45:030][662]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game346577D3044DE25A7C4668EAA35580E1F.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game3.uasset'
+[2016.03.22-20.51.45:036][662]LogSavePackage: Total save time: 23.214117ms
+[2016.03.22-20.51.45:036][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game3.uasset
+[2016.03.22-20.51.57:597][279]BlueprintLog: New page: Compile Game4
+[2016.03.22-20.51.57:719][279]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000113484A0
+[2016.03.22-20.51.57:719][279]BlueprintEditorCompileResults: Info [3356.09] Compile of Game4 successful! [in 120 ms]
+[2016.03.22-20.51.57:888][285]BlueprintLog: New page: Compile Game4
+[2016.03.22-20.51.58:002][285]BlueprintEditorCompileResults: Info [3356.37] Compile of Game4 successful! [in 113 ms]
+[2016.03.22-20.51.58:729][314]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/UMG/Game4" FILE="../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game4.uasset" SILENT=true
+[2016.03.22-20.51.58:747][314]LogSavePackage: Save=12.428510ms
+[2016.03.22-20.51.58:747][314]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game48DF5135845423C04D6F4E7A6D770EC86.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game4.uasset'
+[2016.03.22-20.51.58:752][314]LogSavePackage: Total save time: 20.696457ms
+[2016.03.22-20.51.58:752][314]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game4.uasset
+[2016.03.22-20.52.09:405][759]BlueprintLog: New page: Compile Game4
+[2016.03.22-20.52.09:522][759]BlueprintEditorCompileResults: Info [3367.89] Compile of Game4 successful! [in 116 ms]
+[2016.03.22-20.52.10:046][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/UMG/Game4" FILE="../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game4.uasset" SILENT=true
+[2016.03.22-20.52.10:061][779]LogSavePackage: Save=11.187449ms
+[2016.03.22-20.52.10:061][779]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game4A9554048424B72E5500968AF4270BADB.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game4.uasset'
+[2016.03.22-20.52.10:064][779]LogSavePackage: Total save time: 16.721528ms
+[2016.03.22-20.52.10:064][779]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game4.uasset
+[2016.03.22-20.52.23:118][416]BlueprintLog: New page: Compile Game5
+[2016.03.22-20.52.23:238][416]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000045829C60
+[2016.03.22-20.52.23:238][416]BlueprintEditorCompileResults: Info [3381.61] Compile of Game5 successful! [in 119 ms]
+[2016.03.22-20.52.23:597][429]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/UMG/Game5" FILE="../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game5.uasset" SILENT=true
+[2016.03.22-20.52.23:612][429]LogSavePackage: Save=13.117381ms
+[2016.03.22-20.52.23:612][429]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game5205053994D6FA93C29F60DB1E64D59A2.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game5.uasset'
+[2016.03.22-20.52.23:616][429]LogSavePackage: Total save time: 17.940223ms
+[2016.03.22-20.52.23:616][429]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game5.uasset
+[2016.03.22-20.52.35:544][ 17]BlueprintLog: New page: Compile Game6
+[2016.03.22-20.52.35:665][ 17]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000047E06520
+[2016.03.22-20.52.35:665][ 17]BlueprintEditorCompileResults: Info [3394.03] Compile of Game6 successful! [in 120 ms]
+[2016.03.22-20.52.36:213][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/UMG/Game6" FILE="../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game6.uasset" SILENT=true
+[2016.03.22-20.52.36:229][ 38]LogSavePackage: Save=13.814453ms
+[2016.03.22-20.52.36:229][ 38]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game61A177B044097DD0F118D0A9B465825EA.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game6.uasset'
+[2016.03.22-20.52.36:244][ 38]LogSavePackage: Total save time: 29.127177ms
+[2016.03.22-20.52.36:244][ 38]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game6.uasset
+[2016.03.22-20.52.45:021][457]BlueprintLog: New page: Compile Game7
+[2016.03.22-20.52.45:150][457]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000057D94720
+[2016.03.22-20.52.45:150][457]BlueprintEditorCompileResults: Info [3403.52] Compile of Game7 successful! [in 128 ms]
+[2016.03.22-20.52.46:064][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/UMG/Game7" FILE="../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game7.uasset" SILENT=true
+[2016.03.22-20.52.46:080][493]LogSavePackage: Save=13.296060ms
+[2016.03.22-20.52.46:080][493]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game7B52D1EB7457CACFBD90E60A31F52A50D.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game7.uasset'
+[2016.03.22-20.52.46:085][493]LogSavePackage: Total save time: 18.970054ms
+[2016.03.22-20.52.46:085][493]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game7.uasset
+[2016.03.22-20.52.57:134][ 67]BlueprintLog: New page: Compile Game8
+[2016.03.22-20.52.57:233][ 67]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001135D580
+[2016.03.22-20.52.57:254][ 67]BlueprintEditorCompileResults: Info [3415.62] Compile of Game8 successful! [in 120 ms]
+[2016.03.22-20.52.57:664][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/UMG/Game8" FILE="../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game8.uasset" SILENT=true
+[2016.03.22-20.52.57:681][ 82]LogSavePackage: Save=15.034888ms
+[2016.03.22-20.52.57:681][ 82]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game897483337485C4AC945B618A1BD367DA4.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game8.uasset'
+[2016.03.22-20.52.57:685][ 82]LogSavePackage: Total save time: 19.027710ms
+[2016.03.22-20.52.57:685][ 82]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game8.uasset
+[2016.03.22-20.53.07:382][565]BlueprintLog: New page: Compile Game9
+[2016.03.22-20.53.07:480][565]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011290540
+[2016.03.22-20.53.07:502][565]BlueprintEditorCompileResults: Info [3425.87] Compile of Game9 successful! [in 119 ms]
+[2016.03.22-20.53.08:132][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/UMG/Game9" FILE="../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game9.uasset" SILENT=true
+[2016.03.22-20.53.08:152][588]LogSavePackage: Save=16.773468ms
+[2016.03.22-20.53.08:152][588]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game9C45F9192438DDBF1A2184BBDFE386C23.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game9.uasset'
+[2016.03.22-20.53.08:157][588]LogSavePackage: Total save time: 22.343088ms
+[2016.03.22-20.53.08:157][588]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game9.uasset
+[2016.03.22-20.53.21:508][540]BlueprintLog: New page: Compile Game10
+[2016.03.22-20.53.21:607][540]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001134A8E0
+[2016.03.22-20.53.21:631][540]BlueprintEditorCompileResults: Info [3440.00] Compile of Game10 successful! [in 122 ms]
+[2016.03.22-20.53.22:148][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/UMG/Game10" FILE="../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game10.uasset" SILENT=true
+[2016.03.22-20.53.22:166][559]LogSavePackage: Save=14.381803ms
+[2016.03.22-20.53.22:166][559]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game10250566574A58AFE9BDB26881463D8F05.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game10.uasset'
+[2016.03.22-20.53.22:173][559]LogSavePackage: Total save time: 21.572210ms
+[2016.03.22-20.53.22:173][559]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game10.uasset
+[2016.03.22-20.58.38:354][ 68]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000047D9F920
+[2016.03.22-20.58.38:354][ 68]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.052
+[2016.03.22-21.16.22:711][290]LogMetaData: Removing '/Game/FirstPersonBP/UMG/Widget_Blueprint/Game9.SKEL_Game9_C' ref from Metadata '/Game/FirstPersonBP/UMG/Game9.PackageMetaData'
+[2016.03.22-21.16.22:711][290]LogMetaData: Removing '/Game/FirstPersonBP/UMG/Widget_Blueprint/Game9.Game9_C' ref from Metadata '/Game/FirstPersonBP/UMG/Game9.PackageMetaData'
+[2016.03.22-21.16.22:826][290]LogMetaData: Removing '/Game/FirstPersonBP/UMG/Widget_Blueprint/Game8.SKEL_Game8_C' ref from Metadata '/Game/FirstPersonBP/UMG/Game8.PackageMetaData'
+[2016.03.22-21.16.22:826][290]LogMetaData: Removing '/Game/FirstPersonBP/UMG/Widget_Blueprint/Game8.Game8_C' ref from Metadata '/Game/FirstPersonBP/UMG/Game8.PackageMetaData'
+[2016.03.22-21.16.22:940][290]LogMetaData: Removing '/Game/FirstPersonBP/UMG/Widget_Blueprint/Game7.SKEL_Game7_C' ref from Metadata '/Game/FirstPersonBP/UMG/Game7.PackageMetaData'
+[2016.03.22-21.16.22:940][290]LogMetaData: Removing '/Game/FirstPersonBP/UMG/Widget_Blueprint/Game7.Game7_C' ref from Metadata '/Game/FirstPersonBP/UMG/Game7.PackageMetaData'
+[2016.03.22-21.16.23:051][290]LogMetaData: Removing '/Game/FirstPersonBP/UMG/Widget_Blueprint/Game6.SKEL_Game6_C' ref from Metadata '/Game/FirstPersonBP/UMG/Game6.PackageMetaData'
+[2016.03.22-21.16.23:051][290]LogMetaData: Removing '/Game/FirstPersonBP/UMG/Widget_Blueprint/Game6.Game6_C' ref from Metadata '/Game/FirstPersonBP/UMG/Game6.PackageMetaData'
+[2016.03.22-21.16.23:162][290]LogMetaData: Removing '/Game/FirstPersonBP/UMG/Widget_Blueprint/Game5.SKEL_Game5_C' ref from Metadata '/Game/FirstPersonBP/UMG/Game5.PackageMetaData'
+[2016.03.22-21.16.23:162][290]LogMetaData: Removing '/Game/FirstPersonBP/UMG/Widget_Blueprint/Game5.Game5_C' ref from Metadata '/Game/FirstPersonBP/UMG/Game5.PackageMetaData'
+[2016.03.22-21.16.23:271][290]LogMetaData: Removing '/Game/FirstPersonBP/UMG/Widget_Blueprint/Game4.SKEL_Game4_C' ref from Metadata '/Game/FirstPersonBP/UMG/Game4.PackageMetaData'
+[2016.03.22-21.16.23:271][290]LogMetaData: Removing '/Game/FirstPersonBP/UMG/Widget_Blueprint/Game4.Game4_C' ref from Metadata '/Game/FirstPersonBP/UMG/Game4.PackageMetaData'
+[2016.03.22-21.16.23:382][290]LogMetaData: Removing '/Game/FirstPersonBP/UMG/Widget_Blueprint/Game3.SKEL_Game3_C' ref from Metadata '/Game/FirstPersonBP/UMG/Game3.PackageMetaData'
+[2016.03.22-21.16.23:382][290]LogMetaData: Removing '/Game/FirstPersonBP/UMG/Widget_Blueprint/Game3.Game3_C' ref from Metadata '/Game/FirstPersonBP/UMG/Game3.PackageMetaData'
+[2016.03.22-21.16.23:489][290]LogMetaData: Removing '/Game/FirstPersonBP/UMG/Widget_Blueprint/Game2.SKEL_Game2_C' ref from Metadata '/Game/FirstPersonBP/UMG/Game2.PackageMetaData'
+[2016.03.22-21.16.23:489][290]LogMetaData: Removing '/Game/FirstPersonBP/UMG/Widget_Blueprint/Game2.Game2_C' ref from Metadata '/Game/FirstPersonBP/UMG/Game2.PackageMetaData'
+[2016.03.22-21.16.23:608][290]LogMetaData: Removing '/Game/FirstPersonBP/UMG/Widget_Blueprint/Game10.SKEL_Game10_C' ref from Metadata '/Game/FirstPersonBP/UMG/Game10.PackageMetaData'
+[2016.03.22-21.16.23:608][290]LogMetaData: Removing '/Game/FirstPersonBP/UMG/Widget_Blueprint/Game10.Game10_C' ref from Metadata '/Game/FirstPersonBP/UMG/Game10.PackageMetaData'
+[2016.03.22-21.16.23:731][290]LogMetaData: Removing '/Game/FirstPersonBP/UMG/Widget_Blueprint/Game1.Game1_C' ref from Metadata '/Game/FirstPersonBP/UMG/Game1.PackageMetaData'
+[2016.03.22-21.16.23:731][290]LogMetaData: Removing '/Game/FirstPersonBP/UMG/Widget_Blueprint/Game1.SKEL_Game1_C' ref from Metadata '/Game/FirstPersonBP/UMG/Game1.PackageMetaData'
+[2016.03.22-21.16.23:731][290]LogMetaData: Removing '/Game/FirstPersonBP/UMG/Widget_Blueprint/Game1.Game1:EventGraph.K2Node_Event_146' ref from Metadata '/Game/FirstPersonBP/UMG/Game1.PackageMetaData'
+[2016.03.22-21.16.23:731][290]LogMetaData: Removing '/Game/FirstPersonBP/UMG/Widget_Blueprint/Game1.Game1:EventGraph.K2Node_Event_147' ref from Metadata '/Game/FirstPersonBP/UMG/Game1.PackageMetaData'
+[2016.03.22-21.16.23:731][290]LogMetaData: Removing '/Game/FirstPersonBP/UMG/Widget_Blueprint/Game1.Game1:GetBrush_0.K2Node_FunctionEntry_81' ref from Metadata '/Game/FirstPersonBP/UMG/Game1.PackageMetaData'
+[2016.03.22-21.16.23:731][290]LogMetaData: Removing '/Game/FirstPersonBP/UMG/Widget_Blueprint/Game1.Game1:GetBrush_0.K2Node_FunctionResult_1' ref from Metadata '/Game/FirstPersonBP/UMG/Game1.PackageMetaData'
+[2016.03.22-21.16.23:792][290]LogSavePackage: Save=14.042834ms
+[2016.03.22-21.16.23:792][290]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game918FBFE2F42BE69D52C938D97D76BF1DA.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Widget_Blueprint/Game9.uasset'
+[2016.03.22-21.16.23:822][290]LogSavePackage: Total save time: 44.502772ms
+[2016.03.22-21.16.23:822][290]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Widget_Blueprint/Game9.uasset
+[2016.03.22-21.16.23:848][290]LogSavePackage: Save=14.982701ms
+[2016.03.22-21.16.23:848][290]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game83C6F0AAF43E649C54FAD07B96DE21A68.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Widget_Blueprint/Game8.uasset'
+[2016.03.22-21.16.23:852][290]LogSavePackage: Total save time: 19.616675ms
+[2016.03.22-21.16.23:852][290]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Widget_Blueprint/Game8.uasset
+[2016.03.22-21.16.23:878][290]LogSavePackage: Save=13.384033ms
+[2016.03.22-21.16.23:878][290]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game7322A60704A357ED27FBE09B24025C6EC.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Widget_Blueprint/Game7.uasset'
+[2016.03.22-21.16.23:881][290]LogSavePackage: Total save time: 17.097030ms
+[2016.03.22-21.16.23:881][290]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Widget_Blueprint/Game7.uasset
+[2016.03.22-21.16.23:907][290]LogSavePackage: Save=14.803525ms
+[2016.03.22-21.16.23:907][290]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game642B7CB784E583A94B68764895C098080.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Widget_Blueprint/Game6.uasset'
+[2016.03.22-21.16.23:910][290]LogSavePackage: Total save time: 18.622387ms
+[2016.03.22-21.16.23:910][290]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Widget_Blueprint/Game6.uasset
+[2016.03.22-21.16.23:935][290]LogSavePackage: Save=13.315692ms
+[2016.03.22-21.16.23:935][290]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game52084E44F4D6811A71ACAF7BCAE150C23.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Widget_Blueprint/Game5.uasset'
+[2016.03.22-21.16.23:938][290]LogSavePackage: Total save time: 17.025955ms
+[2016.03.22-21.16.23:938][290]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Widget_Blueprint/Game5.uasset
+[2016.03.22-21.16.23:960][290]LogSavePackage: Save=12.065684ms
+[2016.03.22-21.16.23:960][290]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game46DC9BDDD4EC47CD46434CAAEB085CBE2.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Widget_Blueprint/Game4.uasset'
+[2016.03.22-21.16.23:964][290]LogSavePackage: Total save time: 16.608953ms
+[2016.03.22-21.16.23:964][290]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Widget_Blueprint/Game4.uasset
+[2016.03.22-21.16.23:988][290]LogSavePackage: Save=12.904159ms
+[2016.03.22-21.16.23:988][290]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game3CC49278C4AA80207781748BAFAE615EC.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Widget_Blueprint/Game3.uasset'
+[2016.03.22-21.16.23:991][290]LogSavePackage: Total save time: 16.063970ms
+[2016.03.22-21.16.23:991][290]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Widget_Blueprint/Game3.uasset
+[2016.03.22-21.16.24:012][290]LogSavePackage: Save=11.327359ms
+[2016.03.22-21.16.24:012][290]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game271783ACB4E3C9B026F9F33A99E623C84.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Widget_Blueprint/Game2.uasset'
+[2016.03.22-21.16.24:016][290]LogSavePackage: Total save time: 14.962323ms
+[2016.03.22-21.16.24:016][290]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Widget_Blueprint/Game2.uasset
+[2016.03.22-21.16.24:043][290]LogSavePackage: Save=16.381567ms
+[2016.03.22-21.16.24:043][290]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game10CCA995214CD185EF1CD69FB859CE5290.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Widget_Blueprint/Game10.uasset'
+[2016.03.22-21.16.24:047][290]LogSavePackage: Total save time: 20.702172ms
+[2016.03.22-21.16.24:047][290]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Widget_Blueprint/Game10.uasset
+[2016.03.22-21.16.24:069][290]LogSavePackage: Save=12.078359ms
+[2016.03.22-21.16.24:069][290]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game162DEA045488555A174AACD952785FF5F.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Widget_Blueprint/Game1.uasset'
+[2016.03.22-21.16.24:073][290]LogSavePackage: Total save time: 15.791353ms
+[2016.03.22-21.16.24:073][290]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Widget_Blueprint/Game1.uasset
+[2016.03.22-21.16.24:847][290]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000047D9E7A0
+[2016.03.22-21.16.24:849][290]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001134A0C0
+[2016.03.22-21.16.24:850][290]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000061F10F40
+[2016.03.22-21.16.24:852][290]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001135E3E0
+[2016.03.22-21.16.24:854][290]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000047E06FC0
+[2016.03.22-21.16.24:855][290]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000057D97600
+[2016.03.22-21.16.24:856][290]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FB8B7E0
+[2016.03.22-21.16.24:858][290]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000112D28E0
+[2016.03.22-21.16.24:859][290]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004582BEC0
+[2016.03.22-21.16.24:903][290]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011348EA0
+[2016.03.22-21.16.47:262][276]LogSavePackage: Save=2836.985596ms
+[2016.03.22-21.16.47:262][276]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/FirstPersonExampleMapBB607D524A5EA488E966A98B462A8B3A.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.03.22-21.16.47:267][276]LogSavePackage: Total save time: 2891.988117ms
+[2016.03.22-21.16.47:267][276]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.03.22-21.17.34:841][366]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000028A87BA0
+[2016.03.22-21.17.38:673][366]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BlueprintComponentNodeSpawner_124' or package '/Engine/Transient'.
+[2016.03.22-21.17.38:677][366]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Game1_C_0' or package '/Engine/Transient'.
+[2016.03.22-21.17.38:677][366]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Game1_C_220' or package '/Engine/Transient'.
+[2016.03.22-21.17.38:677][366]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Game1_C_1' or package '/Engine/Transient'.
+[2016.03.22-21.17.38:677][366]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Game1_C_219' or package '/Engine/Transient'.
+[2016.03.22-21.18.00:926][731]LogRenderer: Reallocating scene render targets to support 1616x704 (Frame:218663).
+[2016.03.22-21.18.53:570][190]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.22-21.19.50:063][556]BlueprintLog: New page: Compile Game1
+[2016.03.22-21.19.50:223][556]BlueprintEditorCompileResults: Info [5028.57] Compile of Game1 successful! [in 160 ms]
+[2016.03.22-21.19.50:998][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/UMG/Game_Actors/Game1" FILE="../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game1.uasset" SILENT=true
+[2016.03.22-21.19.51:017][600]LogSavePackage: Save=16.470037ms
+[2016.03.22-21.19.51:017][600]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game19DA27C2E4EDE0FD8CCBEE387E30C2FF0.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game1.uasset'
+[2016.03.22-21.19.51:022][600]LogSavePackage: Total save time: 21.223549ms
+[2016.03.22-21.19.51:022][600]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game1.uasset
+[2016.03.22-21.20.01:312][218]BlueprintLog: New page: Compile Game1
+[2016.03.22-21.20.01:416][218]BlueprintEditorCompileResults: Info [5039.77] Compile of Game1 successful! [in 103 ms]
+[2016.03.22-21.20.03:182][323]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/UMG/Game_Actors/Game1" FILE="../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game1.uasset" SILENT=true
+[2016.03.22-21.20.03:203][323]LogSavePackage: Save=13.270215ms
+[2016.03.22-21.20.03:203][323]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game12EB4C1B04E9FAC3671BF98B4000E7D5B.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game1.uasset'
+[2016.03.22-21.20.03:209][323]LogSavePackage: Total save time: 24.189521ms
+[2016.03.22-21.20.03:209][323]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game1.uasset
+[2016.03.22-21.20.49:614][511]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.22-21.21.10:431][752]BlueprintLog: New page: Compile Game2
+[2016.03.22-21.21.10:545][752]BlueprintEditorCompileResults: Info [5108.89] Compile of Game2 successful! [in 114 ms]
+[2016.03.22-21.21.21:751][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/UMG/Game_Actors/Game2" FILE="../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game2.uasset" SILENT=true
+[2016.03.22-21.21.21:768][425]LogSavePackage: Save=14.768485ms
+[2016.03.22-21.21.21:768][425]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game2DAF10CA0476E2909EE158488AE5626EA.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game2.uasset'
+[2016.03.22-21.21.21:772][425]LogSavePackage: Total save time: 19.202411ms
+[2016.03.22-21.21.21:772][425]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game2.uasset
+[2016.03.22-21.21.28:793][850]BlueprintLog: New page: Compile Game2
+[2016.03.22-21.21.28:901][850]BlueprintEditorCompileResults: Info [5127.25] Compile of Game2 successful! [in 107 ms]
+[2016.03.22-21.21.29:367][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/UMG/Game_Actors/Game2" FILE="../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game2.uasset" SILENT=true
+[2016.03.22-21.21.29:387][874]LogSavePackage: Save=14.725245ms
+[2016.03.22-21.21.29:387][874]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game2E2EB32404D257FBD215E00A0BEE73F13.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game2.uasset'
+[2016.03.22-21.21.29:391][874]LogSavePackage: Total save time: 22.516299ms
+[2016.03.22-21.21.29:392][874]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game2.uasset
+[2016.03.22-21.22.13:795][936]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.22-21.22.23:244][489]BlueprintLog: New page: Compile Game3
+[2016.03.22-21.22.23:358][489]BlueprintEditorCompileResults: Info [5181.70] Compile of Game3 successful! [in 113 ms]
+[2016.03.22-21.22.24:335][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/UMG/Game_Actors/Game3" FILE="../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game3.uasset" SILENT=true
+[2016.03.22-21.22.24:351][543]LogSavePackage: Save=13.695168ms
+[2016.03.22-21.22.24:351][543]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game3B2EB09164D0D9EDD3B2D6CAEA52D0000.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game3.uasset'
+[2016.03.22-21.22.24:357][543]LogSavePackage: Total save time: 19.454151ms
+[2016.03.22-21.22.24:357][543]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game3.uasset
+[2016.03.22-21.23.01:825][357]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.22-21.23.11:715][974]BlueprintLog: New page: Compile Game4
+[2016.03.22-21.23.11:826][974]BlueprintEditorCompileResults: Info [5230.17] Compile of Game4 successful! [in 109 ms]
+[2016.03.22-21.23.12:670][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/UMG/Game_Actors/Game4" FILE="../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game4.uasset" SILENT=true
+[2016.03.22-21.23.12:686][ 36]LogSavePackage: Save=13.873350ms
+[2016.03.22-21.23.12:686][ 36]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game418BE3FDC4C2EF23C41BA8B97946AFD9C.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game4.uasset'
+[2016.03.22-21.23.12:692][ 36]LogSavePackage: Total save time: 19.802067ms
+[2016.03.22-21.23.12:692][ 36]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game4.uasset
+[2016.03.22-21.23.48:817][916]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.22-21.24.06:605][950]BlueprintLog: New page: Compile Game5
+[2016.03.22-21.24.06:716][950]BlueprintEditorCompileResults: Info [5285.06] Compile of Game5 successful! [in 110 ms]
+[2016.03.22-21.24.07:104][969]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/UMG/Game_Actors/Game5" FILE="../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game5.uasset" SILENT=true
+[2016.03.22-21.24.07:120][969]LogSavePackage: Save=13.992884ms
+[2016.03.22-21.24.07:120][969]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game5B73AAC0B4E51E4A2B92A1EA14784AE7B.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game5.uasset'
+[2016.03.22-21.24.07:138][969]LogSavePackage: Total save time: 32.092154ms
+[2016.03.22-21.24.07:138][969]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game5.uasset
+[2016.03.22-21.25.11:802][703]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.22-21.25.25:646][492]BlueprintLog: New page: Compile Game6
+[2016.03.22-21.25.25:761][492]BlueprintEditorCompileResults: Info [5364.11] Compile of Game6 successful! [in 114 ms]
+[2016.03.22-21.25.26:292][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/UMG/Game_Actors/Game6" FILE="../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game6.uasset" SILENT=true
+[2016.03.22-21.25.26:311][521]LogSavePackage: Save=15.205864ms
+[2016.03.22-21.25.26:311][521]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game6A19F68734C46AD2DFB0F46B25673236B.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game6.uasset'
+[2016.03.22-21.25.26:318][521]LogSavePackage: Total save time: 23.202434ms
+[2016.03.22-21.25.26:318][521]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game6.uasset
+[2016.03.22-21.25.42:567][492]BlueprintLog: New page: Compile Game6
+[2016.03.22-21.25.42:674][492]BlueprintEditorCompileResults: Info [5381.02] Compile of Game6 successful! [in 106 ms]
+[2016.03.22-21.25.43:258][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/UMG/Game_Actors/Game6" FILE="../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game6.uasset" SILENT=true
+[2016.03.22-21.25.43:279][521]LogSavePackage: Save=12.512258ms
+[2016.03.22-21.25.43:279][521]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game657D4593F43F6BFC5CF38C0ACD0B74C81.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game6.uasset'
+[2016.03.22-21.25.43:281][521]LogSavePackage: Total save time: 21.222305ms
+[2016.03.22-21.25.43:281][521]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game6.uasset
+[2016.03.22-21.26.24:075][553]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.22-21.26.36:584][287]BlueprintLog: New page: Compile Game7
+[2016.03.22-21.26.36:696][287]BlueprintEditorCompileResults: Info [5435.04] Compile of Game7 successful! [in 111 ms]
+[2016.03.22-21.26.45:005][781]BlueprintLog: New page: Compile Game7
+[2016.03.22-21.26.45:112][781]BlueprintEditorCompileResults: Info [5443.46] Compile of Game7 successful! [in 106 ms]
+[2016.03.22-21.26.45:677][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/UMG/Game_Actors/Game7" FILE="../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game7.uasset" SILENT=true
+[2016.03.22-21.26.45:693][810]LogSavePackage: Save=13.923798ms
+[2016.03.22-21.26.45:693][810]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game7BFC220C145BCB872A08E87AA4B215485.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game7.uasset'
+[2016.03.22-21.26.45:700][810]LogSavePackage: Total save time: 20.823944ms
+[2016.03.22-21.26.45:700][810]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game7.uasset
+[2016.03.22-21.27.36:958][207]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000047FE6AC0
+[2016.03.22-21.27.39:853][207]LogSavePackage: Save=2829.866455ms
+[2016.03.22-21.27.39:853][207]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/FirstPersonExampleMap_Auto37EE799FA45CB0305B1130CAB9579398A.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap'
+[2016.03.22-21.27.39:856][207]LogSavePackage: Total save time: 2882.388406ms
+[2016.03.22-21.27.39:856][207]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap
+[2016.03.22-21.27.39:859][207]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 2.950
+[2016.03.22-21.27.39:859][207]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.950
+[2016.03.22-21.27.39:867][207]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/UMG/Game_Actors/Game8] ([1] browsable assets)...
+[2016.03.22-21.27.39:867][207]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/UMG/Game_Actors/Game8]
+[2016.03.22-21.27.39:898][207]LogSavePackage: Save=11.425024ms
+[2016.03.22-21.27.39:898][207]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game8_Auto37D20508D4D7230E6EFBCDE9BF4D1B1D6.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Autosaves/Game/FirstPersonBP/UMG/Game_Actors/Game8_Auto3.uasset'
+[2016.03.22-21.27.39:900][207]LogSavePackage: Total save time: 14.217786ms
+[2016.03.22-21.27.39:901][207]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Autosaves/Game/FirstPersonBP/UMG/Game_Actors/Game8_Auto3.uasset
+[2016.03.22-21.27.39:901][207]LogFileHelpers: Auto-saving content packages took 0.041
+[2016.03.22-21.28.18:917][757]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.22-21.28.29:211][362]BlueprintLog: New page: Compile Game8
+[2016.03.22-21.28.29:325][362]BlueprintEditorCompileResults: Info [5547.67] Compile of Game8 successful! [in 114 ms]
+[2016.03.22-21.28.29:712][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/UMG/Game_Actors/Game8" FILE="../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game8.uasset" SILENT=true
+[2016.03.22-21.28.29:729][382]LogSavePackage: Save=15.165605ms
+[2016.03.22-21.28.29:729][382]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game88D8B31464977BC027EDBEB94596913D3.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game8.uasset'
+[2016.03.22-21.28.29:736][382]LogSavePackage: Total save time: 22.170372ms
+[2016.03.22-21.28.29:736][382]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game8.uasset
+[2016.03.22-21.28.41:626][ 85]BlueprintLog: New page: Compile Game8
+[2016.03.22-21.28.41:732][ 85]BlueprintEditorCompileResults: Info [5560.08] Compile of Game8 successful! [in 105 ms]
+[2016.03.22-21.28.42:147][106]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/UMG/Game_Actors/Game8" FILE="../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game8.uasset" SILENT=true
+[2016.03.22-21.28.42:169][106]LogSavePackage: Save=16.050800ms
+[2016.03.22-21.28.42:169][106]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game823042B5C497F87EBC5175DB14FD33F58.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game8.uasset'
+[2016.03.22-21.28.42:175][106]LogSavePackage: Total save time: 25.072973ms
+[2016.03.22-21.28.42:175][106]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game8.uasset
+[2016.03.22-21.29.09:727][911]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.22-21.29.24:449][767]BlueprintLog: New page: Compile Game9
+[2016.03.22-21.29.24:565][767]BlueprintEditorCompileResults: Info [5602.91] Compile of Game9 successful! [in 115 ms]
+[2016.03.22-21.29.25:631][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/UMG/Game_Actors/Game9" FILE="../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game9.uasset" SILENT=true
+[2016.03.22-21.29.25:647][823]LogSavePackage: Save=13.448397ms
+[2016.03.22-21.29.25:647][823]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game94FCF3ADA41212C3369FE8097C2494256.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game9.uasset'
+[2016.03.22-21.29.25:653][823]LogSavePackage: Total save time: 19.745156ms
+[2016.03.22-21.29.25:653][823]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game9.uasset
+[2016.03.22-21.30.03:092][336]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.22-21.30.18:149][182]BlueprintLog: New page: Compile Game10
+[2016.03.22-21.30.18:264][182]BlueprintEditorCompileResults: Info [5656.61] Compile of Game10 successful! [in 115 ms]
+[2016.03.22-21.30.18:902][215]LogSavePackage: Save=16.493397ms
+[2016.03.22-21.30.18:902][215]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game1056696C654CC835F0EC7ADE81419BD259.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game10.uasset'
+[2016.03.22-21.30.18:907][215]LogSavePackage: Total save time: 21.861970ms
+[2016.03.22-21.30.18:907][215]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Game_Actors/Game10.uasset
+[2016.03.22-21.56.11:128][832]LogSavePackage: Save=2866.950928ms
+[2016.03.22-21.56.11:128][832]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/FirstPersonExampleMapF5C1342346F56A9D409F46BC7F3DF6EF.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.03.22-21.56.11:136][832]LogSavePackage: Total save time: 2915.707704ms
+[2016.03.22-21.56.11:136][832]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.03.22-21.56.13:054][ 14]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012857380
+[2016.03.22-21.56.13:055][ 14]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000047FE5800
+[2016.03.22-21.56.13:056][ 14]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000028A86340
+[2016.03.22-21.56.13:058][ 14]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000047695580
+[2016.03.22-21.56.13:059][ 14]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000110E13A0
+[2016.03.22-21.56.13:060][ 14]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000112D1120
+[2016.03.22-21.56.13:062][ 14]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012782B60
+[2016.03.22-21.56.13:063][ 14]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000058D668E0
+[2016.03.22-21.56.13:064][ 14]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000058D67560
+[2016.03.22-21.56.13:066][ 14]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000125BF1A0
+[2016.03.22-21.57.13:395][932]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.22-21.58.33:053][885]Cmd: EDIT CUT
+[2016.03.22-21.58.33:077][885]LogEditorActor: Deleted Actor: Game3_C
+[2016.03.22-21.58.33:079][885]LogEditorActor: Deleted Actor: Game4_C
+[2016.03.22-21.58.33:080][885]LogEditorActor: Deleted Actor: Game5_C
+[2016.03.22-21.58.33:081][885]LogEditorActor: Deleted Actor: Game6_C
+[2016.03.22-21.58.33:083][885]LogEditorActor: Deleted Actor: Game7_C
+[2016.03.22-21.58.33:084][885]LogEditorActor: Deleted Actor: Game9_C
+[2016.03.22-21.58.33:085][885]LogEditorActor: Deleted Actor: Game8_C
+[2016.03.22-21.58.33:086][885]LogEditorActor: Deleted Actor: Game10_C
+[2016.03.22-21.58.33:151][885]LogEditorActor: Deleted 8 Actors (0.088 secs)
+[2016.03.22-21.58.44:504][215]Cmd: TRANSACTION UNDO
+[2016.03.22-21.58.44:504][215]LogEditorTransaction: Undo Cut
+[2016.03.22-21.59.56:003][630]BlueprintLog: New page: Compile Game1
+[2016.03.22-21.59.56:109][630]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006B25B920
+[2016.03.22-21.59.56:134][630]BlueprintEditorCompileResults: Info [7434.45] Compile of Game1 successful! [in 130 ms]
+[2016.03.22-21.59.56:566][645]LogSavePackage: Save=11.157627ms
+[2016.03.22-21.59.56:566][645]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/Game1FFC0E0704798B5060285D48A0A6FFF28.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Widget_Blueprint/Game1.uasset'
+[2016.03.22-21.59.56:574][645]LogSavePackage: Total save time: 22.303075ms
+[2016.03.22-21.59.56:574][645]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/UMG/Widget_Blueprint/Game1.uasset
+[2016.03.22-22.00.00:251][898]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.22-22.00.01:154][976]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2016.03.22-22.00.01:595][ 13]LogEditorViewport: Clicking on Actor (LMB): Game1_C (Game1)
+[2016.03.22-22.00.02:231][ 72]LogEditorViewport: Clicking on Actor (LMB): Game1_C (Game1)
+[2016.03.22-22.00.04:512][299]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.00.04:512][299]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.22-22.00.04:512][299]OCULUS: Info: 03/22/16 22:00:04: [IPC] Call Stats for Hmd_Create : x1: C2S=35.7855, S2C=9.94042, Runtime=16.8987 (microseconds) C2Ssize=19, S2Csize=171 (bytes)
+
+[2016.03.22-22.00.04:512][299]OCULUS: Info: 03/22/16 22:00:04: [IPC] Call Stats for Hmd_GetHmdInfo : x1: C2S=20.6264, S2C=6.9583, Runtime=7.45532 (microseconds) C2Ssize=23, S2Csize=803 (bytes)
+
+[2016.03.22-22.00.04:512][299]OCULUS: Info: 03/22/16 22:00:04: [IPC] Call Stats for SetNumberValue : x1: C2S=20.6264, S2C=3.23064, Runtime=7.95234 (microseconds) C2Ssize=55, S2Csize=25 (bytes)
+
+[2016.03.22-22.00.04:512][299]OCULUS: Info: 03/22/16 22:00:04: [IPC] Call Stats for SetNumberValues : x1: C2S=25.5966, S2C=2.98213, Runtime=3.72766 (microseconds) C2Ssize=81, S2Csize=25 (bytes)
+
+[2016.03.22-22.00.04:513][299]OCULUS: Info: 03/22/16 22:00:04: [IPC] Call Stats for Hmd_SetEnabledCaps : x1: C2S=25.3481, S2C=4.7217, Runtime=215.956 (microseconds) C2Ssize=35, S2Csize=33 (bytes)
+
+[2016.03.22-22.00.04:513][299]OCULUS: Info: 03/22/16 22:00:04: [IPC] Call Stats for Hmd_ConfigureTracking : x1: C2S=25.0996, S2C=4.47319, Runtime=41.7498 (microseconds) C2Ssize=46, S2Csize=25 (bytes)
+
+[2016.03.22-22.00.04:513][299]LogHMD:Warning: HMD Oculus Rift DK1, res = 1280 x 800
+[2016.03.22-22.00.04:538][299]PIE: New page: PIE session: FirstPersonExampleMap (22 Mar 2016 22:00:04)
+[2016.03.22-22.00.04:538][299]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.03.22-22.00.04:583][299]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044254s)
+[2016.03.22-22.00.04:584][299]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.22-22.00.04:584][299]LogPlayLevel: PIE: World Init took: (0.001326s)
+[2016.03.22-22.00.04:585][299]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.046967s)
+[2016.03.22-22.00.04:630][299]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000059885580
+[2016.03.22-22.00.04:651][299]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.22-22.00.04:663][299]LogInit: FAudioDevice initialized.
+[2016.03.22-22.00.04:756][299]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.22-22.00.04:763][299]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.22-22.00.04
+[2016.03.22-22.00.04:763][299]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-22.00.04:763][299]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-22.00.04:769][299]LogWorld: Bringing up level for play took: 0.011812
+[2016.03.22-22.00.04:783][299]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.401
+[2016.03.22-22.00.04:783][299]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.00.09:262][768]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.00.09:262][768]OCULUS: Info: 03/22/16 22:00:09: [IPC] Call Stats for Hmd_Release : x1: C2S=30.5668, S2C=5.71574, Runtime=84.2451 (microseconds) C2Ssize=20, S2Csize=25 (bytes)
+
+[2016.03.22-22.00.09:355][768]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.00.09:468][769]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000436B0220
+[2016.03.22-22.00.20:139][784]LogEditorViewport: Clicking on Actor (context menu): Game1_C (Game1)
+[2016.03.22-22.00.29:636][443]Cmd: ACTOR MIRROR X=-1
+[2016.03.22-22.00.30:552][531]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2016.03.22-22.00.32:321][693]LogEditorViewport: Clicking on Actor (LMB): Game5_C (Game5)
+[2016.03.22-22.00.46:151][977]Cmd: ACTOR MIRROR X=-1
+[2016.03.22-22.00.47:643][110]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2016.03.22-22.01.47:693][811]Cmd: TRANSACTION UNDO
+[2016.03.22-22.01.47:693][811]LogEditorTransaction: Undo Scale Actors
+[2016.03.22-22.01.57:979][687]LogEditorViewport: Clicking on Actor (LMB): Game1_C (Game1)
+[2016.03.22-22.03.48:268][256]LogSavePackage: Save=2891.634033ms
+[2016.03.22-22.03.48:268][256]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/FirstPersonExampleMap7CA86AF040CCEDD94E5783B58DFB94CB.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.03.22-22.03.48:275][256]LogSavePackage: Total save time: 2972.344007ms
+[2016.03.22-22.03.48:275][256]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.03.22-22.04.17:242][104]LogEditorViewport: Clicking on Actor (LMB): Game1_C (Game1)
+[2016.03.22-22.05.19:897][919]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2016.03.22-22.05.20:671][980]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.22-22.05.22:282][134]LogEditorViewport: Clicking on Actor (LMB): Game5_C (Game5)
+[2016.03.22-22.05.25:071][401]LogEditorViewport: Clicking on Actor (LMB): Game4_C (Game4)
+[2016.03.22-22.05.26:897][573]LogEditorViewport: Clicking on Actor (LMB): Game5_C (Game5)
+[2016.03.22-22.05.28:698][734]LogEditorViewport: Clicking on Actor (LMB): Game6_C (Game6)
+[2016.03.22-22.05.34:096][260]LogEditorViewport: Clicking on Actor (LMB): Game1_C (Game1)
+[2016.03.22-22.05.37:930][635]LogEditorViewport: Clicking on Actor (LMB): Game2_C (Game2)
+[2016.03.22-22.05.42:514][ 80]Cmd: TRANSACTION UNDO
+[2016.03.22-22.05.42:514][ 80]LogEditorTransaction: Undo Move Actors
+[2016.03.22-22.05.45:123][316]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.22-22.05.45:983][387]LogEditorViewport: Clicking on Actor (LMB): Game3_C (Game3)
+[2016.03.22-22.07.01:303][633]LogEditorViewport: Clicking on Actor (LMB): Game10_C (Game10)
+[2016.03.22-22.07.22:277][674]LogEditorViewport: Clicking on Actor (LMB): Game1_C (Game1)
+[2016.03.22-22.07.32:316][666]LogEditorViewport: Clicking on Actor (LMB): Game10_C (Game10)
+[2016.03.22-22.07.37:368][147]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.22-22.07.38:800][280]LogEditorViewport: Clicking on Actor (LMB): Game10_C (Game10)
+[2016.03.22-22.07.45:222][908]LogEditorViewport: Clicking on Actor (LMB): Game1_C (Game1)
+[2016.03.22-22.08.06:480][931]LogEditorViewport: Clicking on Actor (LMB): Game2_C (Game2)
+[2016.03.22-22.08.12:370][502]LogEditorViewport: Clicking on Actor (LMB): Game1_C (Game1)
+[2016.03.22-22.08.14:525][703]LogEditorViewport: Clicking on Actor (LMB): Game2_C (Game2)
+[2016.03.22-22.08.31:267][355]LogEditorViewport: Clicking on Actor (LMB): Game1_C (Game1)
+[2016.03.22-22.08.36:276][840]LogEditorViewport: Clicking on Actor (LMB): Game2_C (Game2)
+[2016.03.22-22.08.48:241][ 14]LogEditorViewport: Clicking on Actor (LMB): Game3_C (Game3)
+[2016.03.22-22.08.56:262][775]LogEditorViewport: Clicking on Actor (LMB): Game4_C (Game4)
+[2016.03.22-22.08.58:481][997]LogEditorViewport: Clicking on Actor (CTRL LMB): Game5_C (Game5)
+[2016.03.22-22.08.59:723][112]LogEditorViewport: Clicking on Actor (CTRL LMB): Game7_C (Game7)
+[2016.03.22-22.09.00:391][172]LogEditorViewport: Clicking on Actor (CTRL LMB): Game6_C (Game6)
+[2016.03.22-22.09.01:699][302]LogEditorViewport: Clicking on Actor (CTRL LMB): Game8_C (Game8)
+[2016.03.22-22.09.18:904][967]LogEditorViewport: Clicking on Actor (CTRL LMB): Game3_C (Game3)
+[2016.03.22-22.09.19:544][ 26]LogEditorViewport: Clicking on Actor (CTRL LMB): Game2_C (Game2)
+[2016.03.22-22.09.20:109][ 79]LogEditorViewport: Clicking on Actor (CTRL LMB): Game1_C (Game1)
+[2016.03.22-22.09.34:068][405]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.22-22.09.48:697][792]LogEditorViewport: Clicking on Actor (LMB): Game1_C (Game1)
+[2016.03.22-22.09.57:116][619]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.22-22.09.58:034][701]LogEditorViewport: Clicking on Actor (LMB): Game1_C (Game1)
+[2016.03.22-22.10.01:366][ 17]LogEditorViewport: Clicking on Actor (LMB): Game2_C (Game2)
+[2016.03.22-22.10.08:474][709]LogEditorViewport: Clicking on Actor (LMB): Game3_C (Game3)
+[2016.03.22-22.10.15:572][407]LogEditorViewport: Clicking on Actor (LMB): Game1_C (Game1)
+[2016.03.22-22.10.17:504][592]LogEditorViewport: Clicking on Actor (LMB): Game2_C (Game2)
+[2016.03.22-22.10.29:709][781]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.22-22.10.33:538][152]LogEditorViewport: Clicking on Actor (LMB): Game1_C (Game1)
+[2016.03.22-22.10.36:900][480]LogEditorViewport: Clicking on Actor (LMB): Game2_C (Game2)
+[2016.03.22-22.10.40:902][871]LogEditorViewport: Clicking on Actor (LMB): Game3_C (Game3)
+[2016.03.22-22.10.53:296][104]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.22-22.10.54:003][162]LogEditorViewport: Clicking on Actor (LMB): Game1_C (Game1)
+[2016.03.22-22.10.57:146][482]LogEditorViewport: Clicking on Actor (CTRL LMB): Game2_C (Game2)
+[2016.03.22-22.10.58:004][561]LogEditorViewport: Clicking on Actor (CTRL LMB): Game3_C (Game3)
+[2016.03.22-22.11.28:180][662]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.22-22.11.29:041][737]LogEditorViewport: Clicking on Actor (LMB): Game3_C (Game3)
+[2016.03.22-22.11.35:596][381]LogEditorViewport: Clicking on Actor (LMB): Game4_C (Game4)
+[2016.03.22-22.11.38:839][708]LogEditorViewport: Clicking on Actor (CTRL LMB): Game5_C (Game5)
+[2016.03.22-22.11.39:759][794]LogEditorViewport: Clicking on Actor (CTRL LMB): Game6_C (Game6)
+[2016.03.22-22.11.40:494][861]LogEditorViewport: Clicking on Actor (CTRL LMB): Game7_C (Game7)
+[2016.03.22-22.11.40:969][896]LogEditorViewport: Clicking on Actor (CTRL LMB): Game8_C (Game8)
+[2016.03.22-22.11.46:679][432]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.22-22.11.47:984][553]LogEditorViewport: Clicking on Actor (LMB): Game8_C (Game8)
+[2016.03.22-22.12.07:348][478]LogEditorViewport: Clicking on Actor (LMB): Game9_C (Game9)
+[2016.03.22-22.12.23:494][ 58]LogEditorViewport: Clicking on Actor (LMB): Game10_C (Game10)
+[2016.03.22-22.12.40:718][746]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.22-22.12.41:724][837]LogEditorViewport: Clicking on Actor (LMB): Game9_C (Game9)
+[2016.03.22-22.12.43:992][ 62]LogEditorViewport: Clicking on Actor (CTRL LMB): Game10_C (Game10)
+[2016.03.22-22.12.44:964][148]LogEditorViewport: Clicking on Actor (CTRL LMB): Game8_C (Game8)
+[2016.03.22-22.12.45:627][207]LogEditorViewport: Clicking on Actor (CTRL LMB): Game7_C (Game7)
+[2016.03.22-22.12.46:549][292]LogEditorViewport: Clicking on Actor (CTRL LMB): Game6_C (Game6)
+[2016.03.22-22.12.47:271][353]LogEditorViewport: Clicking on Actor (CTRL LMB): Game5_C (Game5)
+[2016.03.22-22.12.48:077][425]LogEditorViewport: Clicking on Actor (CTRL LMB): Game4_C (Game4)
+[2016.03.22-22.12.48:852][494]LogEditorViewport: Clicking on Actor (CTRL LMB): Game3_C (Game3)
+[2016.03.22-22.12.49:466][548]LogEditorViewport: Clicking on Actor (CTRL LMB): Game2_C (Game2)
+[2016.03.22-22.12.50:284][624]LogEditorViewport: Clicking on Actor (CTRL LMB): Game1_C (Game1)
+[2016.03.22-22.12.56:908][195]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.22-22.12.58:071][301]LogEditorViewport: Clicking on Actor (LMB): Game3_C (Game3)
+[2016.03.22-22.13.03:296][841]LogEditorViewport: Clicking on Actor (LMB): Game8_C (Game8)
+[2016.03.22-22.13.05:523][ 55]LogEditorViewport: Clicking on Actor (LMB): Game3_C (Game3)
+[2016.03.22-22.13.07:279][226]LogEditorViewport: Clicking on Actor (LMB): Game2_C (Game2)
+[2016.03.22-22.13.09:455][445]LogEditorViewport: Clicking on Actor (LMB): Game3_C (Game3)
+[2016.03.22-22.13.10:857][584]LogEditorViewport: Clicking on Actor (LMB): Game2_C (Game2)
+[2016.03.22-22.13.13:045][801]LogEditorViewport: Clicking on Actor (LMB): Game1_C (Game1)
+[2016.03.22-22.13.16:236][114]LogEditorViewport: Clicking on Actor (LMB): Game2_C (Game2)
+[2016.03.22-22.13.17:320][217]LogEditorViewport: Clicking on Actor (LMB): Game3_C (Game3)
+[2016.03.22-22.13.18:818][366]LogEditorViewport: Clicking on Actor (LMB): Game8_C (Game8)
+[2016.03.22-22.13.22:507][737]LogEditorViewport: Clicking on Actor (LMB): Game3_C (Game3)
+[2016.03.22-22.13.27:361][209]LogEditorViewport: Clicking on Actor (LMB): Game2_C (Game2)
+[2016.03.22-22.13.28:626][328]LogEditorViewport: Clicking on Actor (LMB): Game3_C (Game3)
+[2016.03.22-22.13.34:177][882]LogEditorViewport: Clicking on Actor (LMB): Game2_C (Game2)
+[2016.03.22-22.13.39:460][393]LogEditorViewport: Clicking on Actor (LMB): Game1_C (Game1)
+[2016.03.22-22.13.45:832][ 33]LogEditorViewport: Clicking on Actor (LMB): Game3_C (Game3)
+[2016.03.22-22.13.48:166][255]LogEditorViewport: Clicking on Actor (LMB): Game8_C (Game8)
+[2016.03.22-22.13.50:819][523]LogEditorViewport: Clicking on Actor (LMB): Game3_C (Game3)
+[2016.03.22-22.13.54:710][920]LogEditorViewport: Clicking on Actor (LMB): Game8_C (Game8)
+[2016.03.22-22.13.58:845][304]LogEditorViewport: Clicking on Actor (LMB): Game3_C (Game3)
+[2016.03.22-22.14.00:337][450]LogEditorViewport: Clicking on Actor (LMB): Game8_C (Game8)
+[2016.03.22-22.14.05:266][936]LogEditorViewport: Clicking on Actor (LMB): Game9_C (Game9)
+[2016.03.22-22.14.06:764][ 84]LogEditorViewport: Clicking on Actor (LMB): Game2_C (Game2)
+[2016.03.22-22.14.08:213][218]LogEditorViewport: Clicking on Actor (LMB): Game9_C (Game9)
+[2016.03.22-22.14.12:270][617]LogEditorViewport: Clicking on Actor (LMB): Game1_C (Game1)
+[2016.03.22-22.14.13:980][783]LogEditorViewport: Clicking on Actor (LMB): Game10_C (Game10)
+[2016.03.22-22.14.18:677][236]LogEditorViewport: Clicking on Actor (LMB): Game1_C (Game1)
+[2016.03.22-22.14.20:006][364]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.22-22.14.28:916][122]LogEditorViewport: Clicking on Actor (LMB): Game2_C (Game2)
+[2016.03.22-22.14.30:209][247]LogEditorViewport: Clicking on Actor (LMB): Game9_C (Game9)
+[2016.03.22-22.14.32:007][427]LogEditorViewport: Clicking on Actor (LMB): Game2_C (Game2)
+[2016.03.22-22.14.33:618][587]LogEditorViewport: Clicking on Actor (LMB): Game9_C (Game9)
+[2016.03.22-22.14.36:903][919]LogEditorViewport: Clicking on Actor (LMB): Game2_C (Game2)
+[2016.03.22-22.14.39:343][155]LogEditorViewport: Clicking on Actor (LMB): Game9_C (Game9)
+[2016.03.22-22.14.43:971][620]LogEditorViewport: Clicking on Actor (LMB): Game2_C (Game2)
+[2016.03.22-22.14.45:204][740]LogEditorViewport: Clicking on Actor (LMB): Game1_C (Game1)
+[2016.03.22-22.14.46:785][895]LogEditorViewport: Clicking on Actor (LMB): Game10_C (Game10)
+[2016.03.22-22.14.53:171][518]LogEditorViewport: Clicking on Actor (LMB): Game2_C (Game2)
+[2016.03.22-22.14.54:641][662]LogEditorViewport: Clicking on Actor (LMB): Game9_C (Game9)
+[2016.03.22-22.15.00:955][288]LogEditorViewport: Clicking on Actor (LMB): Game3_C (Game3)
+[2016.03.22-22.15.02:308][422]LogEditorViewport: Clicking on Actor (LMB): Game8_C (Game8)
+[2016.03.22-22.15.04:563][651]LogEditorViewport: Clicking on Actor (LMB): Game3_C (Game3)
+[2016.03.22-22.15.06:150][807]LogEditorViewport: Clicking on Actor (LMB): Game8_C (Game8)
+[2016.03.22-22.15.08:286][ 20]LogEditorViewport: Clicking on Actor (LMB): Game7_C (Game7)
+[2016.03.22-22.15.11:289][305]LogEditorViewport: Clicking on Actor (LMB): Game5_C (Game5)
+[2016.03.22-22.15.14:865][657]LogEditorViewport: Clicking on Actor (LMB): Game6_C (Game6)
+[2016.03.22-22.15.16:083][775]LogEditorViewport: Clicking on Actor (LMB): Game7_C (Game7)
+[2016.03.22-22.15.19:472][109]LogEditorViewport: Clicking on Actor (LMB): Game3_C (Game3)
+[2016.03.22-22.15.21:576][312]LogEditorViewport: Clicking on Actor (LMB): Game4_C (Game4)
+[2016.03.22-22.15.23:909][545]LogEditorViewport: Clicking on Actor (LMB): Game3_C (Game3)
+[2016.03.22-22.15.26:155][773]LogEditorViewport: Clicking on Actor (LMB): Game4_C (Game4)
+[2016.03.22-22.15.31:585][307]LogEditorViewport: Clicking on Actor (LMB): Game7_C (Game7)
+[2016.03.22-22.15.35:417][685]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.22-22.15.43:166][418]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000598845E0
+[2016.03.22-22.15.46:125][418]LogSavePackage: Save=2878.491455ms
+[2016.03.22-22.15.46:125][418]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/FirstPersonExampleMapC0E91F4146C80BBCD80546BCBBB8A24A.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.03.22-22.15.46:133][418]LogSavePackage: Total save time: 2929.633740ms
+[2016.03.22-22.15.46:133][418]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.03.22-22.15.52:126][963]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.15.52:126][963]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.22-22.15.52:126][963]OCULUS: Info: 03/22/16 22:15:52: [IPC] Call Stats for Hmd_Create : x1: C2S=25.0996, S2C=5.96425, Runtime=15.1591 (microseconds) C2Ssize=19, S2Csize=171 (bytes)
+
+[2016.03.22-22.15.52:126][963]OCULUS: Info: 03/22/16 22:15:52: [IPC] Call Stats for Hmd_GetHmdInfo : x1: C2S=10.1889, S2C=8.20085, Runtime=7.20681 (microseconds) C2Ssize=23, S2Csize=803 (bytes)
+
+[2016.03.22-22.15.52:127][963]OCULUS: Info: 03/22/16 22:15:52: [IPC] Call Stats for SetNumberValue : x1: C2S=10.686, S2C=4.22468, Runtime=7.45532 (microseconds) C2Ssize=55, S2Csize=25 (bytes)
+
+[2016.03.22-22.15.52:127][963]OCULUS: Info: 03/22/16 22:15:52: [IPC] Call Stats for SetNumberValues : x1: C2S=11.4315, S2C=3.23064, Runtime=4.22468 (microseconds) C2Ssize=81, S2Csize=25 (bytes)
+
+[2016.03.22-22.15.52:127][963]OCULUS: Info: 03/22/16 22:15:52: [IPC] Call Stats for Hmd_SetEnabledCaps : x1: C2S=149.603, S2C=2.48511, Runtime=114.066 (microseconds) C2Ssize=35, S2Csize=33 (bytes)
+
+[2016.03.22-22.15.52:127][963]OCULUS: Info: 03/22/16 22:15:52: [IPC] Call Stats for Hmd_ConfigureTracking : x2: C2S=19.6323, S2C=1.98808, Runtime=31.4366 (microseconds) C2Ssize=46, S2Csize=25 (bytes)
+
+[2016.03.22-22.15.52:127][963]LogHMD:Warning: HMD Oculus Rift DK1, res = 1280 x 800
+[2016.03.22-22.15.52:128][963]PIE: New page: PIE session: FirstPersonExampleMap (22 Mar 2016 22:15:52)
+[2016.03.22-22.15.52:128][963]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.03.22-22.15.52:168][963]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040439s)
+[2016.03.22-22.15.52:171][963]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.22-22.15.52:171][963]LogPlayLevel: PIE: World Init took: (0.002800s)
+[2016.03.22-22.15.52:171][963]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.043535s)
+[2016.03.22-22.15.52:233][963]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.22-22.15.52:247][963]LogInit: FAudioDevice initialized.
+[2016.03.22-22.15.52:281][963]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.22-22.15.52:287][963]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.22-22.15.52
+[2016.03.22-22.15.52:287][963]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-22.15.52:287][963]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-22.15.52:288][963]LogWorld: Bringing up level for play took: 0.006285
+[2016.03.22-22.15.52:304][963]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.09
+[2016.03.22-22.15.52:304][963]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.16.11:516][202]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.16.11:516][202]OCULUS: Info: 03/22/16 22:16:11: [IPC] Call Stats for Hmd_Release : x1: C2S=31.8094, S2C=7.20681, Runtime=74.3047 (microseconds) C2Ssize=20, S2Csize=25 (bytes)
+
+[2016.03.22-22.16.11:568][202]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.16.11:672][203]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007898FCE0
+[2016.03.22-22.16.45:458][604]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.22-22.16.55:083][530]LogEditorViewport: Clicking on Actor (LMB): Game1_C (Game1)
+[2016.03.22-22.16.58:934][923]LogEditorViewport: Clicking on Actor (LMB): Game10_C (Game10)
+[2016.03.22-22.17.00:698][ 95]LogEditorViewport: Clicking on Actor (LMB): Game1_C (Game1)
+[2016.03.22-22.17.02:599][286]LogEditorViewport: Clicking on Actor (LMB): Game2_C (Game2)
+[2016.03.22-22.17.03:762][401]LogEditorViewport: Clicking on Actor (LMB): Game9_C (Game9)
+[2016.03.22-22.17.05:283][551]LogEditorViewport: Clicking on Actor (LMB): Game3_C (Game3)
+[2016.03.22-22.17.06:934][700]LogEditorViewport: Clicking on Actor (LMB): Game8_C (Game8)
+[2016.03.22-22.17.13:053][325]LogEditorViewport: Clicking on Actor (LMB): Game3_C (Game3)
+[2016.03.22-22.17.14:659][484]LogEditorViewport: Clicking on Actor (LMB): Game8_C (Game8)
+[2016.03.22-22.17.17:666][781]LogEditorViewport: Clicking on Actor (LMB): Game3_C (Game3)
+[2016.03.22-22.17.22:477][277]LogEditorViewport: Clicking on Actor (LMB): Game8_C (Game8)
+[2016.03.22-22.17.27:409][771]LogEditorViewport: Clicking on Actor (LMB): Game1_C (Game1)
+[2016.03.22-22.17.29:346][965]LogEditorViewport: Clicking on Actor (LMB): Game10_C (Game10)
+[2016.03.22-22.17.30:770][104]LogEditorViewport: Clicking on Actor (LMB): Game1_C (Game1)
+[2016.03.22-22.17.33:764][409]LogEditorViewport: Clicking on Actor (LMB): Game10_C (Game10)
+[2016.03.22-22.17.35:548][588]LogEditorViewport: Clicking on Actor (LMB): Game1_C (Game1)
+[2016.03.22-22.17.40:362][ 71]LogEditorViewport: Clicking on Actor (LMB): Game2_C (Game2)
+[2016.03.22-22.17.41:747][207]LogEditorViewport: Clicking on Actor (LMB): Game9_C (Game9)
+[2016.03.22-22.17.55:756][647]LogEditorViewport: Clicking on Actor (LMB): Game3_C (Game3)
+[2016.03.22-22.17.58:047][862]LogEditorViewport: Clicking on Actor (LMB): Game8_C (Game8)
+[2016.03.22-22.18.03:491][410]LogEditorViewport: Clicking on Actor (LMB): Game3_C (Game3)
+[2016.03.22-22.18.06:856][755]LogEditorViewport: Clicking on Actor (LMB): Game8_C (Game8)
+[2016.03.22-22.18.18:346][922]LogEditorViewport: Clicking on Actor (LMB): Game4_C (Game4)
+[2016.03.22-22.18.35:826][702]LogEditorViewport: Clicking on Actor (LMB): Game5_C (Game5)
+[2016.03.22-22.18.37:533][865]LogEditorViewport: Clicking on Actor (LMB): Game6_C (Game6)
+[2016.03.22-22.18.38:434][949]LogEditorViewport: Clicking on Actor (LMB): Game7_C (Game7)
+[2016.03.22-22.18.41:377][229]LogEditorViewport: Clicking on Actor (LMB): Game8_C (Game8)
+[2016.03.22-22.18.43:244][415]LogEditorViewport: Clicking on Actor (LMB): Game3_C (Game3)
+[2016.03.22-22.18.47:069][808]LogEditorViewport: Clicking on Actor (LMB): Game1_C (Game1)
+[2016.03.22-22.18.49:882][ 84]LogEditorViewport: Clicking on Actor (LMB): Game10_C (Game10)
+[2016.03.22-22.18.56:097][707]LogEditorViewport: Clicking on Actor (LMB): Game2_C (Game2)
+[2016.03.22-22.18.57:308][827]LogEditorViewport: Clicking on Actor (LMB): Game9_C (Game9)
+[2016.03.22-22.19.03:756][468]LogEditorViewport: Clicking on Actor (LMB): Game10_C (Game10)
+[2016.03.22-22.19.04:889][579]LogEditorViewport: Clicking on Actor (LMB): Game1_C (Game1)
+[2016.03.22-22.19.06:465][737]LogEditorViewport: Clicking on Actor (LMB): Game3_C (Game3)
+[2016.03.22-22.19.08:123][900]LogEditorViewport: Clicking on Actor (LMB): Game8_C (Game8)
+[2016.03.22-22.19.12:645][347]LogEditorViewport: Clicking on Actor (LMB): Game4_C (Game4)
+[2016.03.22-22.19.15:228][607]LogEditorViewport: Clicking on Actor (LMB): Game7_C (Game7)
+[2016.03.22-22.19.17:462][835]LogEditorViewport: Clicking on Actor (LMB): Game4_C (Game4)
+[2016.03.22-22.19.19:051][993]LogEditorViewport: Clicking on Actor (LMB): Game7_C (Game7)
+[2016.03.22-22.19.25:562][652]LogEditorViewport: Clicking on Actor (LMB): Game4_C (Game4)
+[2016.03.22-22.19.39:698][ 96]LogEditorViewport: Clicking on Actor (LMB): Game5_C (Game5)
+[2016.03.22-22.19.41:386][255]LogEditorViewport: Clicking on Actor (LMB): Game6_C (Game6)
+[2016.03.22-22.19.45:057][614]LogEditorViewport: Clicking on Actor (CTRL LMB): Game5_C (Game5)
+[2016.03.22-22.19.48:313][946]LogEditorViewport: Clicking on Actor (LMB): Game7_C (Game7)
+[2016.03.22-22.19.50:513][158]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.22-22.19.52:229][319]LogEditorViewport: Clicking on Actor (LMB): Game4_C (Game4)
+[2016.03.22-22.19.55:086][596]LogEditorViewport: Clicking on Actor (LMB): Game6_C (Game6)
+[2016.03.22-22.19.55:923][675]LogEditorViewport: Clicking on Actor (CTRL LMB): Game5_C (Game5)
+[2016.03.22-22.20.01:156][215]LogEditorViewport: Clicking on Actor (LMB): Game4_C (Game4)
+[2016.03.22-22.20.04:456][541]LogEditorViewport: Clicking on Actor (CTRL LMB): Game5_C (Game5)
+[2016.03.22-22.20.05:312][623]LogEditorViewport: Clicking on Actor (CTRL LMB): Game6_C (Game6)
+[2016.03.22-22.20.07:108][806]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.22-22.20.07:999][885]LogEditorViewport: Clicking on Actor (LMB): Game5_C (Game5)
+[2016.03.22-22.20.08:793][959]LogEditorViewport: Clicking on Actor (LMB): Game6_C (Game6)
+[2016.03.22-22.20.09:904][ 66]LogEditorViewport: Clicking on Actor (LMB): Game5_C (Game5)
+[2016.03.22-22.20.10:558][126]LogEditorViewport: Clicking on Actor (LMB): Game6_C (Game6)
+[2016.03.22-22.20.13:316][398]LogEditorViewport: Clicking on Actor (LMB): Game7_C (Game7)
+[2016.03.22-22.20.14:400][504]LogEditorViewport: Clicking on Actor (LMB): Game6_C (Game6)
+[2016.03.22-22.21.09:753][239]LogEditorViewport: Clicking on Actor (LMB): Game5_C (Game5)
+[2016.03.22-22.21.11:856][441]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.22-22.21.25:315][724]LogEditorViewport: Clicking on Actor (LMB): Game6_C (Game6)
+[2016.03.22-22.21.27:376][918]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.22-22.21.28:005][973]LogEditorViewport: Clicking on Actor (LMB): Game7_C (Game7)
+[2016.03.22-22.21.30:131][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.22-22.21.35:239][659]LogEditorViewport: Clicking on Actor (LMB): Game2_C (Game2)
+[2016.03.22-22.21.37:481][878]LogEditorViewport: Clicking on Actor (CTRL LMB): Game9_C (Game9)
+[2016.03.22-22.21.40:912][236]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.22-22.21.42:298][368]LogEditorViewport: Clicking on Actor (LMB): Game9_C (Game9)
+[2016.03.22-22.21.43:964][529]LogEditorViewport: Clicking on Actor (LMB): Game2_C (Game2)
+[2016.03.22-22.21.50:922][228]LogEditorViewport: Clicking on Actor (LMB): Game9_C (Game9)
+[2016.03.22-22.21.56:360][773]LogEditorViewport: Clicking on Actor (LMB): Game1_C (Game1)
+[2016.03.22-22.22.02:428][377]LogEditorViewport: Clicking on Actor (LMB): Game10_C (Game10)
+[2016.03.22-22.22.06:488][775]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.22-22.22.08:711][934]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2016.03.22-22.22.15:384][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.22-22.22.16:217][602]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2016.03.22-22.22.25:819][481]LogEditorViewport: Clicking on Actor (LMB): Game6_C (Game6)
+[2016.03.22-22.22.27:219][614]LogEditorViewport: Clicking on Actor (LMB): Game5_C (Game5)
+[2016.03.22-22.22.28:393][725]LogEditorViewport: Clicking on Actor (LMB): Game6_C (Game6)
+[2016.03.22-22.22.30:263][911]LogEditorViewport: Clicking on Actor (LMB): Game10_C (Game10)
+[2016.03.22-22.22.30:789][956]LogEditorViewport: Clicking on Actor (LMB): Game9_C (Game9)
+[2016.03.22-22.22.31:365][  9]LogEditorViewport: Clicking on Actor (LMB): Game8_C (Game8)
+[2016.03.22-22.22.31:900][ 54]LogEditorViewport: Clicking on Actor (LMB): Game7_C (Game7)
+[2016.03.22-22.22.34:200][282]LogEditorViewport: Clicking on Actor (CTRL LMB): Game10_C (Game10)
+[2016.03.22-22.22.34:604][317]LogEditorViewport: Clicking on Actor (CTRL LMB): Game9_C (Game9)
+[2016.03.22-22.22.35:064][357]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor)
+[2016.03.22-22.22.35:675][413]LogEditorViewport: Clicking on Actor (CTRL LMB): Game8_C (Game8)
+[2016.03.22-22.22.42:085][ 71]LogEditorViewport: Clicking on Actor (CTRL LMB): Game6_C (Game6)
+[2016.03.22-22.22.42:752][133]LogEditorViewport: Clicking on Actor (CTRL LMB): Game5_C (Game5)
+[2016.03.22-22.22.43:243][177]LogEditorViewport: Clicking on Actor (CTRL LMB): Game4_C (Game4)
+[2016.03.22-22.22.44:056][255]LogEditorViewport: Clicking on Actor (CTRL LMB): Game3_C (Game3)
+[2016.03.22-22.22.45:232][367]LogEditorViewport: Clicking on Actor (CTRL LMB): Game2_C (Game2)
+[2016.03.22-22.22.47:279][551]LogEditorViewport: Clicking on Actor (CTRL LMB): Game1_C (Game1)
+[2016.03.22-22.22.54:481][241]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.22-22.22.58:899][373]LogSavePackage: Save=2851.836670ms
+[2016.03.22-22.22.58:899][373]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/FirstPersonExampleMapEF7D3ECC48F9F43BA9DA818ACBEC012F.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.03.22-22.22.58:908][373]LogSavePackage: Total save time: 2915.858053ms
+[2016.03.22-22.22.58:908][373]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.03.22-22.23.00:950][572]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.23.00:950][572]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.22-22.23.00:950][572]OCULUS: Info: 03/22/16 22:23:00: [IPC] Call Stats for Hmd_Create : x1: C2S=37.0281, S2C=12.177, Runtime=17.1472 (microseconds) C2Ssize=19, S2Csize=171 (bytes)
+
+[2016.03.22-22.23.00:950][572]OCULUS: Info: 03/22/16 22:23:00: [IPC] Call Stats for Hmd_GetHmdInfo : x1: C2S=25.8451, S2C=14.6621, Runtime=12.4255 (microseconds) C2Ssize=23, S2Csize=803 (bytes)
+
+[2016.03.22-22.23.00:951][572]OCULUS: Info: 03/22/16 22:23:00: [IPC] Call Stats for SetNumberValue : x1: C2S=36.5311, S2C=20.6264, Runtime=11.68 (microseconds) C2Ssize=55, S2Csize=25 (bytes)
+
+[2016.03.22-22.23.00:951][572]OCULUS: Info: 03/22/16 22:23:00: [IPC] Call Stats for SetNumberValues : x1: C2S=15.1591, S2C=7.70383, Runtime=4.22468 (microseconds) C2Ssize=81, S2Csize=25 (bytes)
+
+[2016.03.22-22.23.00:951][572]OCULUS: Info: 03/22/16 22:23:00: [IPC] Call Stats for Hmd_SetEnabledCaps : x1: C2S=12.674, S2C=6.70978, Runtime=65.8553 (microseconds) C2Ssize=35, S2Csize=33 (bytes)
+
+[2016.03.22-22.23.00:951][572]OCULUS: Info: 03/22/16 22:23:00: [IPC] Call Stats for Hmd_ConfigureTracking : x2: C2S=24.4783, S2C=2.11234, Runtime=19.3838 (microseconds) C2Ssize=46, S2Csize=25 (bytes)
+
+[2016.03.22-22.23.00:951][572]LogHMD:Warning: HMD Oculus Rift DK1, res = 1280 x 800
+[2016.03.22-22.23.00:951][572]PIE: New page: PIE session: FirstPersonExampleMap (22 Mar 2016 22:23:00)
+[2016.03.22-22.23.00:952][572]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.03.22-22.23.01:004][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052564s)
+[2016.03.22-22.23.01:006][572]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.22-22.23.01:006][572]LogPlayLevel: PIE: World Init took: (0.002237s)
+[2016.03.22-22.23.01:007][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.055101s)
+[2016.03.22-22.23.01:071][572]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.22-22.23.01:083][572]LogInit: FAudioDevice initialized.
+[2016.03.22-22.23.01:123][572]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.22-22.23.01:129][572]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.22-22.23.01
+[2016.03.22-22.23.01:129][572]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-22.23.01:129][572]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-22.23.01:130][572]LogWorld: Bringing up level for play took: 0.006436
+[2016.03.22-22.23.01:131][572]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.732
+[2016.03.22-22.23.01:131][572]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.23.41:857][387]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.23.41:858][387]OCULUS: Info: 03/22/16 22:23:41: [IPC] Call Stats for Hmd_Release : x1: C2S=185.14, S2C=21.3719, Runtime=66.6008 (microseconds) C2Ssize=20, S2Csize=25 (bytes)
+
+[2016.03.22-22.23.41:906][387]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.23.41:962][387]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007CCE47C0
+[2016.03.22-22.23.50:421][942]LogSavePackage: Save=2841.571777ms
+[2016.03.22-22.23.50:422][942]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/FirstPersonExampleMapFE78123540531DD8C1A60B9E4A027903.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.03.22-22.23.50:428][942]LogSavePackage: Total save time: 2851.430453ms
+[2016.03.22-22.23.50:428][942]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.03.22-22.23.54:714][266]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2016.03.22-22.23.55:319][318]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2016.03.22-22.23.56:462][422]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.23.56:462][422]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.22-22.23.56:462][422]OCULUS: Info: 03/22/16 22:23:56: [IPC] Call Stats for Hmd_Create : x1: C2S=30.8153, S2C=8.20085, Runtime=16.1532 (microseconds) C2Ssize=19, S2Csize=171 (bytes)
+
+[2016.03.22-22.23.56:462][422]OCULUS: Info: 03/22/16 22:23:56: [IPC] Call Stats for Hmd_GetHmdInfo : x1: C2S=11.68, S2C=8.44936, Runtime=6.9583 (microseconds) C2Ssize=23, S2Csize=803 (bytes)
+
+[2016.03.22-22.23.56:462][422]OCULUS: Info: 03/22/16 22:23:56: [IPC] Call Stats for SetNumberValue : x1: C2S=12.4255, S2C=4.97021, Runtime=7.95234 (microseconds) C2Ssize=55, S2Csize=25 (bytes)
+
+[2016.03.22-22.23.56:463][422]OCULUS: Info: 03/22/16 22:23:56: [IPC] Call Stats for SetNumberValues : x1: C2S=28.3302, S2C=14.9106, Runtime=14.6621 (microseconds) C2Ssize=81, S2Csize=25 (bytes)
+
+[2016.03.22-22.23.56:463][422]OCULUS: Info: 03/22/16 22:23:56: [IPC] Call Stats for Hmd_SetEnabledCaps : x1: C2S=13.9166, S2C=4.7217, Runtime=64.1157 (microseconds) C2Ssize=35, S2Csize=33 (bytes)
+
+[2016.03.22-22.23.56:463][422]OCULUS: Info: 03/22/16 22:23:56: [IPC] Call Stats for Hmd_ConfigureTracking : x2: C2S=13.0468, S2C=43.3651, Runtime=43.3651 (microseconds) C2Ssize=46, S2Csize=25 (bytes)
+
+[2016.03.22-22.23.56:463][422]LogHMD:Warning: HMD Oculus Rift DK1, res = 1280 x 800
+[2016.03.22-22.23.56:463][422]PIE: New page: PIE session: FirstPersonExampleMap (22 Mar 2016 22:23:56)
+[2016.03.22-22.23.56:463][422]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.03.22-22.23.56:516][422]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052760s)
+[2016.03.22-22.23.56:518][422]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.22-22.23.56:519][422]LogPlayLevel: PIE: World Init took: (0.002308s)
+[2016.03.22-22.23.56:519][422]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.055381s)
+[2016.03.22-22.23.56:519][422]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.03.22-22.23.56:580][422]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.22-22.23.56:593][422]LogInit: FAudioDevice initialized.
+[2016.03.22-22.23.56:628][422]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.22-22.23.56:634][422]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.22-22.23.56
+[2016.03.22-22.23.56:634][422]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-22.23.56:634][422]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-22.23.56:635][422]LogWorld: Bringing up level for play took: 0.006773
+[2016.03.22-22.23.56:637][422]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.237
+[2016.03.22-22.23.56:637][422]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.24.02:126][ 33]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.24.02:126][ 33]OCULUS: Info: 03/22/16 22:24:02: [IPC] Call Stats for Hmd_Release : x1: C2S=31.8094, S2C=5.21872, Runtime=67.3464 (microseconds) C2Ssize=20, S2Csize=25 (bytes)
+
+[2016.03.22-22.24.02:176][ 33]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.24.02:224][ 33]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000436B1E40
+[2016.03.22-22.24.12:582][ 17]LogEditorViewport: Clicking on Actor (LMB): Game10_C (Game10)
+[2016.03.22-22.24.13:661][121]LogEditorViewport: Clicking on Actor (LMB): Game9_C (Game9)
+[2016.03.22-22.24.14:845][238]LogEditorViewport: Clicking on Actor (LMB): Game8_C (Game8)
+[2016.03.22-22.24.17:606][510]LogEditorViewport: Clicking on Actor (CTRL LMB): Game9_C (Game9)
+[2016.03.22-22.24.18:475][596]LogEditorViewport: Clicking on Actor (CTRL LMB): Game10_C (Game10)
+[2016.03.22-22.24.19:465][689]LogEditorViewport: Clicking on Actor (CTRL LMB): Game7_C (Game7)
+[2016.03.22-22.24.20:097][747]LogEditorViewport: Clicking on Actor (CTRL LMB): Game6_C (Game6)
+[2016.03.22-22.24.23:537][ 73]LogEditorViewport: Clicking on Actor (CTRL LMB): Game5_C (Game5)
+[2016.03.22-22.24.24:426][160]LogEditorViewport: Clicking on Actor (CTRL LMB): Game4_C (Game4)
+[2016.03.22-22.24.25:033][215]LogEditorViewport: Clicking on Actor (CTRL LMB): Game3_C (Game3)
+[2016.03.22-22.24.25:664][273]LogEditorViewport: Clicking on Actor (CTRL LMB): Game2_C (Game2)
+[2016.03.22-22.24.27:575][448]LogEditorViewport: Clicking on Actor (CTRL LMB): Game1_C (Game1)
+[2016.03.22-22.24.38:319][170]LogSavePackage: Save=2849.219727ms
+[2016.03.22-22.24.38:319][170]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/FirstPersonExampleMap71AE924A40EFA0FB07D362BDC24DE076.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.03.22-22.24.38:325][170]LogSavePackage: Total save time: 2857.757527ms
+[2016.03.22-22.24.38:325][170]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.03.22-22.24.39:073][241]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.24.39:073][241]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.22-22.24.39:073][241]OCULUS: Info: 03/22/16 22:24:39: [IPC] Call Stats for Hmd_Create : x1: C2S=55.9149, S2C=8.94638, Runtime=15.6562 (microseconds) C2Ssize=19, S2Csize=171 (bytes)
+
+[2016.03.22-22.24.39:073][241]OCULUS: Info: 03/22/16 22:24:39: [IPC] Call Stats for Hmd_GetHmdInfo : x1: C2S=30.8153, S2C=7.95234, Runtime=12.177 (microseconds) C2Ssize=23, S2Csize=803 (bytes)
+
+[2016.03.22-22.24.39:073][241]OCULUS: Info: 03/22/16 22:24:39: [IPC] Call Stats for SetNumberValue : x1: C2S=19.1353, S2C=2.48511, Runtime=8.20085 (microseconds) C2Ssize=55, S2Csize=25 (bytes)
+
+[2016.03.22-22.24.39:073][241]OCULUS: Info: 03/22/16 22:24:39: [IPC] Call Stats for SetNumberValues : x1: C2S=15.4077, S2C=2.73362, Runtime=3.72766 (microseconds) C2Ssize=81, S2Csize=25 (bytes)
+
+[2016.03.22-22.24.39:073][241]OCULUS: Info: 03/22/16 22:24:39: [IPC] Call Stats for Hmd_SetEnabledCaps : x1: C2S=15.1591, S2C=1.98808, Runtime=125.001 (microseconds) C2Ssize=35, S2Csize=33 (bytes)
+
+[2016.03.22-22.24.39:074][241]OCULUS: Info: 03/22/16 22:24:39: [IPC] Call Stats for Hmd_ConfigureTracking : x2: C2S=13.6681, S2C=3.23064, Runtime=47.5898 (microseconds) C2Ssize=46, S2Csize=25 (bytes)
+
+[2016.03.22-22.24.39:074][241]LogHMD:Warning: HMD Oculus Rift DK1, res = 1280 x 800
+[2016.03.22-22.24.39:074][241]PIE: New page: PIE session: FirstPersonExampleMap (22 Mar 2016 22:24:39)
+[2016.03.22-22.24.39:074][241]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.03.22-22.24.39:129][241]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055065s)
+[2016.03.22-22.24.39:132][241]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.22-22.24.39:132][241]LogPlayLevel: PIE: World Init took: (0.002562s)
+[2016.03.22-22.24.39:132][241]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.057929s)
+[2016.03.22-22.24.39:195][241]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.22-22.24.39:207][241]LogInit: FAudioDevice initialized.
+[2016.03.22-22.24.39:247][241]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.22-22.24.39:253][241]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.22-22.24.39
+[2016.03.22-22.24.39:253][241]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-22.24.39:253][241]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-22.24.39:254][241]LogWorld: Bringing up level for play took: 0.006256
+[2016.03.22-22.24.39:255][241]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.855
+[2016.03.22-22.24.39:255][241]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.24.43:435][709]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.24.43:435][709]OCULUS: Info: 03/22/16 22:24:43: [IPC] Call Stats for Hmd_Release : x1: C2S=30.5668, S2C=5.96425, Runtime=106.86 (microseconds) C2Ssize=20, S2Csize=25 (bytes)
+
+[2016.03.22-22.24.43:476][709]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.24.43:530][709]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007E654680
+[2016.03.22-22.29.58:908][874]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2016.03.22-22.29.58:971][874]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.03.22-22.29.59:028][874]BlueprintEditorCompileResults: Info [9237.33] Compile of FirstPersonExampleMap successful! [in 119 ms]
+[2016.03.22-22.30.00:916][991]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2016.03.22-22.30.01:031][991]BlueprintEditorCompileResults: Info [9239.33] Compile of FirstPersonExampleMap successful! [in 114 ms]
+[2016.03.22-22.30.07:481][187]LogSavePackage: Save=2915.629883ms
+[2016.03.22-22.30.07:481][187]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/FirstPersonExampleMap74AE4A734358822BEDF758853E12F384.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.03.22-22.30.07:490][187]LogSavePackage: Total save time: 2992.372219ms
+[2016.03.22-22.30.07:490][187]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.03.22-22.30.07:529][187]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 3.246
+[2016.03.22-22.30.39:078][104]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2016.03.22-22.30.39:193][104]BlueprintEditorCompileResults: Info [9277.49] Compile of FirstPersonExampleMap successful! [in 114 ms]
+[2016.03.22-22.30.57:713][812]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000448EB920
+[2016.03.22-22.31.00:589][812]LogSavePackage: Save=2876.100098ms
+[2016.03.22-22.31.00:589][812]LogSavePackage: Moving '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Saved/FirstPersonExampleMap2A87DC574251CCC480CE898F0C71EDF2.tmp' to '../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.03.22-22.31.00:600][812]LogSavePackage: Total save time: 2889.783084ms
+[2016.03.22-22.31.00:600][812]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Zain/Documents/GitHub/VRGameDatabase/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.03.22-22.31.02:112][932]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2016.03.22-22.31.04:056][119]LogEditorViewport: Clicking on Actor (LMB): Game8_C (Game8)
+[2016.03.22-22.31.06:043][305]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.31.06:043][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.22-22.31.06:044][305]OCULUS: Info: 03/22/16 22:31:06: [IPC] Call Stats for Hmd_Create : x1: C2S=40.0102, S2C=12.177, Runtime=16.1532 (microseconds) C2Ssize=19, S2Csize=171 (bytes)
+
+[2016.03.22-22.31.06:044][305]OCULUS: Info: 03/22/16 22:31:06: [IPC] Call Stats for Hmd_GetHmdInfo : x1: C2S=13.9166, S2C=9.4434, Runtime=7.20681 (microseconds) C2Ssize=23, S2Csize=803 (bytes)
+
+[2016.03.22-22.31.06:044][305]OCULUS: Info: 03/22/16 22:31:06: [IPC] Call Stats for SetNumberValue : x1: C2S=12.4255, S2C=4.97021, Runtime=7.45532 (microseconds) C2Ssize=55, S2Csize=25 (bytes)
+
+[2016.03.22-22.31.06:044][305]OCULUS: Info: 03/22/16 22:31:06: [IPC] Call Stats for SetNumberValues : x1: C2S=12.177, S2C=4.97021, Runtime=3.72766 (microseconds) C2Ssize=81, S2Csize=25 (bytes)
+
+[2016.03.22-22.31.06:044][305]OCULUS: Info: 03/22/16 22:31:06: [IPC] Call Stats for Hmd_SetEnabledCaps : x1: C2S=11.4315, S2C=5.46723, Runtime=55.9149 (microseconds) C2Ssize=35, S2Csize=33 (bytes)
+
+[2016.03.22-22.31.06:044][305]OCULUS: Info: 03/22/16 22:31:06: [IPC] Call Stats for Hmd_ConfigureTracking : x2: C2S=16.8987, S2C=1.98808, Runtime=36.034 (microseconds) C2Ssize=46, S2Csize=25 (bytes)
+
+[2016.03.22-22.31.06:044][305]LogHMD:Warning: HMD Oculus Rift DK1, res = 1280 x 800
+[2016.03.22-22.31.06:045][305]PIE: New page: PIE session: FirstPersonExampleMap (22 Mar 2016 22:31:06)
+[2016.03.22-22.31.06:045][305]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.03.22-22.31.06:100][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055455s)
+[2016.03.22-22.31.06:102][305]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.22-22.31.06:103][305]LogPlayLevel: PIE: World Init took: (0.002255s)
+[2016.03.22-22.31.06:103][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.057996s)
+[2016.03.22-22.31.06:180][305]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.22-22.31.06:193][305]LogInit: FAudioDevice initialized.
+[2016.03.22-22.31.06:228][305]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.22-22.31.06:234][305]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.22-22.31.06
+[2016.03.22-22.31.06:234][305]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-22.31.06:235][305]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-22.31.06:235][305]LogWorld: Bringing up level for play took: 0.006259
+[2016.03.22-22.31.06:237][305]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.168
+[2016.03.22-22.31.06:237][305]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.31.18:867][783]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.31.18:868][783]OCULUS: Info: 03/22/16 22:31:18: [IPC] Call Stats for Hmd_Release : x1: C2S=30.5668, S2C=4.22468, Runtime=122.764 (microseconds) C2Ssize=20, S2Csize=25 (bytes)
+
+[2016.03.22-22.31.18:905][783]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.31.18:955][783]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000047E042C0
+[2016.03.22-22.31.25:512][431]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.31.25:512][431]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.22-22.31.25:512][431]OCULUS: Info: 03/22/16 22:31:25: [IPC] Call Stats for Hmd_Create : x1: C2S=35.04, S2C=61.8791, Runtime=17.1472 (microseconds) C2Ssize=19, S2Csize=171 (bytes)
+
+[2016.03.22-22.31.25:512][431]OCULUS: Info: 03/22/16 22:31:25: [IPC] Call Stats for Hmd_GetHmdInfo : x1: C2S=27.5847, S2C=14.4136, Runtime=12.674 (microseconds) C2Ssize=23, S2Csize=803 (bytes)
+
+[2016.03.22-22.31.25:512][431]OCULUS: Info: 03/22/16 22:31:25: [IPC] Call Stats for SetNumberValue : x1: C2S=16.1532, S2C=7.20681, Runtime=7.45532 (microseconds) C2Ssize=55, S2Csize=25 (bytes)
+
+[2016.03.22-22.31.25:512][431]OCULUS: Info: 03/22/16 22:31:25: [IPC] Call Stats for SetNumberValues : x1: C2S=15.6562, S2C=6.9583, Runtime=9.69191 (microseconds) C2Ssize=81, S2Csize=25 (bytes)
+
+[2016.03.22-22.31.25:513][431]OCULUS: Info: 03/22/16 22:31:25: [IPC] Call Stats for Hmd_SetEnabledCaps : x1: C2S=15.4077, S2C=29.3242, Runtime=74.0561 (microseconds) C2Ssize=35, S2Csize=33 (bytes)
+
+[2016.03.22-22.31.25:513][431]OCULUS: Info: 03/22/16 22:31:25: [IPC] Call Stats for Hmd_ConfigureTracking : x2: C2S=20.7506, S2C=7.33106, Runtime=32.3064 (microseconds) C2Ssize=46, S2Csize=25 (bytes)
+
+[2016.03.22-22.31.25:513][431]LogHMD:Warning: HMD Oculus Rift DK1, res = 1280 x 800
+[2016.03.22-22.31.25:513][431]PIE: New page: PIE session: FirstPersonExampleMap (22 Mar 2016 22:31:25)
+[2016.03.22-22.31.25:513][431]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.03.22-22.31.25:574][431]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061001s)
+[2016.03.22-22.31.25:576][431]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.22-22.31.25:577][431]LogPlayLevel: PIE: World Init took: (0.002298s)
+[2016.03.22-22.31.25:577][431]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.063726s)
+[2016.03.22-22.31.25:638][431]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.22-22.31.25:651][431]LogInit: FAudioDevice initialized.
+[2016.03.22-22.31.25:684][431]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.22-22.31.25:690][431]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.22-22.31.25
+[2016.03.22-22.31.25:690][431]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-22.31.25:690][431]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-22.31.25:690][431]LogWorld: Bringing up level for play took: 0.006411
+[2016.03.22-22.31.25:692][431]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.713
+[2016.03.22-22.31.25:692][431]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.31.29:594][887]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.31.29:595][887]OCULUS: Info: 03/22/16 22:31:29: [IPC] Call Stats for Hmd_Release : x1: C2S=30.0698, S2C=5.71574, Runtime=87.2272 (microseconds) C2Ssize=20, S2Csize=25 (bytes)
+
+[2016.03.22-22.31.29:634][887]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.31.29:720][888]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000918DE340
+[2016.03.22-22.36.05:153][ 85]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2016.03.22-22.36.05:219][ 85]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.03.22-22.36.05:273][ 85]BlueprintEditorCompileResults: Info [9603.57] Compile of FirstPersonExampleMap successful! [in 119 ms]
+[2016.03.22-22.36.11:901][531]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.36.11:901][531]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.22-22.36.11:901][531]OCULUS: Info: 03/22/16 22:36:11: [IPC] Call Stats for Hmd_Create : x1: C2S=32.0579, S2C=6.70978, Runtime=16.8987 (microseconds) C2Ssize=19, S2Csize=171 (bytes)
+
+[2016.03.22-22.36.11:901][531]OCULUS: Info: 03/22/16 22:36:11: [IPC] Call Stats for Hmd_GetHmdInfo : x1: C2S=10.1889, S2C=7.95234, Runtime=7.45532 (microseconds) C2Ssize=23, S2Csize=803 (bytes)
+
+[2016.03.22-22.36.11:902][531]OCULUS: Info: 03/22/16 22:36:11: [IPC] Call Stats for SetNumberValue : x1: C2S=13.6681, S2C=12.177, Runtime=5.96425 (microseconds) C2Ssize=55, S2Csize=25 (bytes)
+
+[2016.03.22-22.36.11:902][531]OCULUS: Info: 03/22/16 22:36:11: [IPC] Call Stats for SetNumberValues : x1: C2S=10.9345, S2C=12.674, Runtime=4.47319 (microseconds) C2Ssize=81, S2Csize=25 (bytes)
+
+[2016.03.22-22.36.11:902][531]OCULUS: Info: 03/22/16 22:36:11: [IPC] Call Stats for Hmd_SetEnabledCaps : x1: C2S=10.9345, S2C=79.2749, Runtime=45.2289 (microseconds) C2Ssize=35, S2Csize=33 (bytes)
+
+[2016.03.22-22.36.11:902][531]OCULUS: Info: 03/22/16 22:36:11: [IPC] Call Stats for Hmd_ConfigureTracking : x2: C2S=16.0289, S2C=14.6621, Runtime=31.4366 (microseconds) C2Ssize=46, S2Csize=25 (bytes)
+
+[2016.03.22-22.36.11:902][531]LogHMD:Warning: HMD Oculus Rift DK1, res = 1280 x 800
+[2016.03.22-22.36.11:903][531]PIE: New page: PIE session: FirstPersonExampleMap (22 Mar 2016 22:36:11)
+[2016.03.22-22.36.11:903][531]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.03.22-22.36.11:951][531]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048125s)
+[2016.03.22-22.36.11:953][531]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.22-22.36.11:953][531]LogPlayLevel: PIE: World Init took: (0.002630s)
+[2016.03.22-22.36.11:954][531]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.051083s)
+[2016.03.22-22.36.12:023][531]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.22-22.36.12:035][531]LogInit: FAudioDevice initialized.
+[2016.03.22-22.36.12:076][531]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.22-22.36.12:088][531]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.22-22.36.12
+[2016.03.22-22.36.12:089][531]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-22.36.12:089][531]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-22.36.12:089][531]LogWorld: Bringing up level for play took: 0.011901
+[2016.03.22-22.36.12:091][531]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.318
+[2016.03.22-22.36.12:091][531]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.36.24:804][872]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.36.24:804][872]OCULUS: Info: 03/22/16 22:36:24: [IPC] Call Stats for Hmd_Release : x1: C2S=31.0638, S2C=4.97021, Runtime=76.7898 (microseconds) C2Ssize=20, S2Csize=25 (bytes)
+
+[2016.03.22-22.36.24:843][872]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.36.24:935][873]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000C394C220
+[2016.03.22-22.36.26:333][989]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.36.26:333][989]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.22-22.36.26:334][989]OCULUS: Info: 03/22/16 22:36:26: [IPC] Call Stats for Hmd_Create : x1: C2S=34.543, S2C=12.177, Runtime=15.9047 (microseconds) C2Ssize=19, S2Csize=171 (bytes)
+
+[2016.03.22-22.36.26:334][989]OCULUS: Info: 03/22/16 22:36:26: [IPC] Call Stats for Hmd_GetHmdInfo : x1: C2S=13.4196, S2C=10.1889, Runtime=6.70978 (microseconds) C2Ssize=23, S2Csize=803 (bytes)
+
+[2016.03.22-22.36.26:334][989]OCULUS: Info: 03/22/16 22:36:26: [IPC] Call Stats for SetNumberValue : x1: C2S=12.4255, S2C=4.97021, Runtime=6.9583 (microseconds) C2Ssize=55, S2Csize=25 (bytes)
+
+[2016.03.22-22.36.26:334][989]OCULUS: Info: 03/22/16 22:36:26: [IPC] Call Stats for SetNumberValues : x1: C2S=11.9285, S2C=4.97021, Runtime=4.22468 (microseconds) C2Ssize=81, S2Csize=25 (bytes)
+
+[2016.03.22-22.36.26:334][989]OCULUS: Info: 03/22/16 22:36:26: [IPC] Call Stats for Hmd_SetEnabledCaps : x1: C2S=11.68, S2C=5.96425, Runtime=70.08 (microseconds) C2Ssize=35, S2Csize=33 (bytes)
+
+[2016.03.22-22.36.26:334][989]OCULUS: Info: 03/22/16 22:36:26: [IPC] Call Stats for Hmd_ConfigureTracking : x2: C2S=45.2289, S2C=4.84596, Runtime=71.1983 (microseconds) C2Ssize=46, S2Csize=25 (bytes)
+
+[2016.03.22-22.36.26:334][989]LogHMD:Warning: HMD Oculus Rift DK1, res = 1280 x 800
+[2016.03.22-22.36.26:335][989]PIE: New page: PIE session: FirstPersonExampleMap (22 Mar 2016 22:36:26)
+[2016.03.22-22.36.26:335][989]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.03.22-22.36.26:382][989]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047315s)
+[2016.03.22-22.36.26:384][989]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.22-22.36.26:384][989]LogPlayLevel: PIE: World Init took: (0.002254s)
+[2016.03.22-22.36.26:385][989]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.049878s)
+[2016.03.22-22.36.26:448][989]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.22-22.36.26:459][989]LogInit: FAudioDevice initialized.
+[2016.03.22-22.36.26:497][989]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.22-22.36.26:503][989]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.22-22.36.26
+[2016.03.22-22.36.26:503][989]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-22.36.26:504][989]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-22.36.26:504][989]LogWorld: Bringing up level for play took: 0.006621
+[2016.03.22-22.36.26:505][989]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.096
+[2016.03.22-22.36.26:505][989]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.36.32:966][682]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.36.33:034][682]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.36.33:133][683]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F671BC0
+[2016.03.22-22.36.35:626][908]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.36.35:626][908]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.22-22.36.35:626][908]LogHMD:Warning: HMD Oculus Rift DK1, res = 1280 x 800
+[2016.03.22-22.36.35:627][908]PIE: New page: PIE session: FirstPersonExampleMap (22 Mar 2016 22:36:35)
+[2016.03.22-22.36.35:627][908]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.03.22-22.36.35:675][908]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048650s)
+[2016.03.22-22.36.35:678][908]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.22-22.36.35:678][908]LogPlayLevel: PIE: World Init took: (0.002662s)
+[2016.03.22-22.36.35:678][908]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.051598s)
+[2016.03.22-22.36.35:743][908]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.22-22.36.35:754][908]LogInit: FAudioDevice initialized.
+[2016.03.22-22.36.35:789][908]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.22-22.36.35:796][908]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.22-22.36.35
+[2016.03.22-22.36.35:796][908]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-22.36.35:797][908]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-22.36.35:797][908]LogWorld: Bringing up level for play took: 0.007825
+[2016.03.22-22.36.35:799][908]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.61
+[2016.03.22-22.36.35:799][908]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.36.42:735][705]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.36.42:735][705]OCULUS: Info: 03/22/16 22:36:42: [IPC] Call Stats for Hmd_Release : x2: C2S=30.9396, S2C=6.21276, Runtime=86.6059 (microseconds) C2Ssize=20, S2Csize=25 (bytes)
+
+[2016.03.22-22.36.42:778][705]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.36.42:868][706]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000047FE40E0
+[2016.03.22-22.36.51:441][489]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.36.51:441][489]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.22-22.36.51:442][489]OCULUS: Info: 03/22/16 22:36:51: [IPC] Call Stats for Hmd_Create : x2: C2S=43.3651, S2C=12.5498, Runtime=16.4017 (microseconds) C2Ssize=19, S2Csize=171 (bytes)
+
+[2016.03.22-22.36.51:442][489]OCULUS: Info: 03/22/16 22:36:51: [IPC] Call Stats for Hmd_GetHmdInfo : x2: C2S=21.2477, S2C=11.8043, Runtime=9.81617 (microseconds) C2Ssize=23, S2Csize=803 (bytes)
+
+[2016.03.22-22.36.51:442][489]OCULUS: Info: 03/22/16 22:36:51: [IPC] Call Stats for SetNumberValue : x2: C2S=16.0289, S2C=4.22468, Runtime=7.82808 (microseconds) C2Ssize=55, S2Csize=25 (bytes)
+
+[2016.03.22-22.36.51:442][489]OCULUS: Info: 03/22/16 22:36:51: [IPC] Call Stats for SetNumberValues : x2: C2S=14.2894, S2C=3.97617, Runtime=3.85191 (microseconds) C2Ssize=81, S2Csize=25 (bytes)
+
+[2016.03.22-22.36.51:442][489]OCULUS: Info: 03/22/16 22:36:51: [IPC] Call Stats for Hmd_SetEnabledCaps : x2: C2S=13.2953, S2C=4.10042, Runtime=68.4647 (microseconds) C2Ssize=35, S2Csize=33 (bytes)
+
+[2016.03.22-22.36.51:442][489]OCULUS: Info: 03/22/16 22:36:51: [IPC] Call Stats for Hmd_ConfigureTracking : x4: C2S=14.6, S2C=4.22468, Runtime=41.6255 (microseconds) C2Ssize=46, S2Csize=25 (bytes)
+
+[2016.03.22-22.36.51:442][489]LogHMD:Warning: HMD Oculus Rift DK1, res = 1280 x 800
+[2016.03.22-22.36.51:443][489]PIE: New page: PIE session: FirstPersonExampleMap (22 Mar 2016 22:36:51)
+[2016.03.22-22.36.51:443][489]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.03.22-22.36.51:488][489]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045315s)
+[2016.03.22-22.36.51:490][489]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.22-22.36.51:491][489]LogPlayLevel: PIE: World Init took: (0.002426s)
+[2016.03.22-22.36.51:491][489]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.048044s)
+[2016.03.22-22.36.51:555][489]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.22-22.36.51:568][489]LogInit: FAudioDevice initialized.
+[2016.03.22-22.36.51:603][489]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.22-22.36.51:610][489]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.22-22.36.51
+[2016.03.22-22.36.51:610][489]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-22.36.51:610][489]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-22.36.51:610][489]LogWorld: Bringing up level for play took: 0.006549
+[2016.03.22-22.36.51:612][489]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.797
+[2016.03.22-22.36.51:612][489]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.22-22.36.53:573][649]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.03.22-22.36.54:074][650]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.03.22-22.36.54:574][650]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.03.22-22.36.55:074][650]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.03.22-22.36.55:577][650]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.03.22-22.36.56:078][651]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.03.22-22.36.56:578][651]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.03.22-22.36.57:078][651]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.03.22-22.36.57:861][651]LogD3D11RHI:Error: Direct3DDevice->CreateBuffer(&Desc, NULL, UniformBufferResource.GetInitReference()) failed 
+ at D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.10\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11UniformBuffer.cpp:159 
+ with error DXGI_ERROR_DEVICE_REMOVED
+[2016.03.22-22.37.00:037][651]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.03.22-22.37.00:037][651]Log file closed, 03/22/16 22:37:00
